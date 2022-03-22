@@ -1,0 +1,55 @@
+﻿
+#Область НачалоДокумента
+<HTML><HEAD>
+
+ <style> 
+ 
+.TitleMessage{
+    font-family: Segoe UI; 
+    font-size: 10pt; 
+    font-weight: 600;
+    background: #FFFFFF;
+   }
+
+.Message{
+    font-family: Segoe UI; 
+    font-size: 10pt; 
+    background: #FFFFFF;
+
+   }
+   
+DIV{
+	width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+   }
+
+</style>
+
+<script>
+function scroll(Height)
+{
+    document.body.scrollTop = Height;
+}
+</script>
+ 
+</HEAD> 
+<BODY>
+<DIV CLASS="TABLE"><DIV CLASS="TBODY">
+#КонецОбласти
+
+#Область Сообщение
+<DIV CLASS="TR"><DIV CLASS="TD TitleMessage">
+		[Период]; [Пользователь]; <a href=[Изменить]>Изменить</a>; <br/>
+</DIV></DIV>	
+<DIV CLASS="TR"><DIV CLASS="TD Message">
+		[ТекстСообщения]
+</DIV></DIV>
+<DIV CLASS="TR"><DIV CLASS="TD">
+		<br/> 
+</DIV></DIV>
+#КонецОбласти
+
+#Область КонецДокумента
+</DIV></DIV></BODY></HTML>
+#КонецОбласти

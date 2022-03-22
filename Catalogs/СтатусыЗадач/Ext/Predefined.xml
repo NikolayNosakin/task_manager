@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.14">
+	<Item id="5b0486e7-550e-4f03-96c4-cface2cd5376">
+		<Name>ВРаботе</Name>
+		<Code>000000003</Code>
+		<Description>В работе</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d8922e6d-6ad4-4cc8-ad37-3e9b24fbc0d4">
+		<Name>Выполненная</Name>
+		<Code>000000004</Code>
+		<Description>Выполненная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2b2e2b63-a601-4fe7-a1cd-424b2a24fc7d">
+		<Name>Завершенная</Name>
+		<Code>000000005</Code>
+		<Description>Завершенная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0d63a96-5eff-4861-b4e3-521fee7a9c94">
+		<Name>Новая</Name>
+		<Code>000000001</Code>
+		<Description>Новая</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59b9a173-e691-423a-89c3-25f21b283961">
+		<Name>НоваяПринята</Name>
+		<Code>000000002</Code>
+		<Description>Новая - Принята</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="222e737d-0c14-4c6e-9370-969c4e61b97e">
+		<Name>Отложенная</Name>
+		<Code>000000006</Code>
+		<Description>Отложенная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36fbf27d-7ba5-4ebf-9b26-9f6a9792accd">
+		<Name>Отмененная</Name>
+		<Code>000000007</Code>
+		<Description>Отмененная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

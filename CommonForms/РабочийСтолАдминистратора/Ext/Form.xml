@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<HorizontalAlign>Center</HorizontalAlign>
+	<VerticalAlign>Center</VerticalAlign>
+	<Customizable>false</Customizable>
+	<ShowTitle>false</ShowTitle>
+	<ShowCloseButton>false</ShowCloseButton>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа5" id="43">
+			<Group>Vertical</Group>
+			<HorizontalAlign>Left</HorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<Button name="Задачи" id="25">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<Width>10</Width>
+					<Height>2</Height>
+					<CommandName>Form.Command.Задачи</CommandName>
+					<ExtendedTooltip name="ЗадачиРасширеннаяПодсказка" id="26"/>
+				</Button>
+				<UsualGroup name="НСИ" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НСИ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НСИ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="НСИРасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<UsualGroup name="Группа3" id="37">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="38"/>
+							<ChildItems>
+								<Button name="ФизическиеЛица" id="33">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ФизическиеЛица</CommandName>
+									<ExtendedTooltip name="ФизическиеЛицаРасширеннаяПодсказка" id="34"/>
+								</Button>
+								<Button name="Клиенты" id="27">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Клиенты</CommandName>
+									<ExtendedTooltip name="КлиентыРасширеннаяПодсказка" id="28"/>
+								</Button>
+								<Button name="Проекты" id="29">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Проекты</CommandName>
+									<ExtendedTooltip name="ПроектыРасширеннаяПодсказка" id="30"/>
+								</Button>
+								<Button name="СтатусыЗадач" id="31">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СтатусыЗадач</CommandName>
+									<ExtendedTooltip name="СтатусыЗадачРасширеннаяПодсказка" id="32"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа4" id="39">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="40"/>
+							<ChildItems>
+								<Button name="ИсторияПереписки" id="35">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ИсторияПереписки</CommandName>
+									<ExtendedTooltip name="ИсторияПерепискиРасширеннаяПодсказка" id="36"/>
+								</Button>
+								<Button name="ИсторияСтатусов" id="41">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ИсторияСтатусов</CommandName>
+									<ExtendedTooltip name="ИсторияСтатусовРасширеннаяПодсказка" id="42"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Администрирование" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Администрирование</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Администрирование</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="АдминистрированиеРасширеннаяПодсказка" id="2"/>
+					<ChildItems>
+						<UsualGroup name="Группа1" id="11">
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="12"/>
+							<ChildItems>
+								<Button name="АдминистрированиеОбслуживание" id="3">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеОбслуживание</CommandName>
+									<ExtendedTooltip name="АдминистрированиеОбслуживаниеРасширеннаяПодсказка" id="4"/>
+								</Button>
+								<Button name="АдминистрированиеОбщиеНастройки" id="5">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеОбщиеНастройки</CommandName>
+									<ExtendedTooltip name="АдминистрированиеОбщиеНастройкиРасширеннаяПодсказка" id="6"/>
+								</Button>
+								<Button name="АдминистрированиеНастройкиПользователейИПрав" id="7">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеНастройкиПользователейИПрав</CommandName>
+									<ExtendedTooltip name="АдминистрированиеНастройкиПользователейИПравРасширеннаяПодсказка" id="8"/>
+								</Button>
+								<Button name="АдминистрированиеИнтернетПоддержкаИСервисы" id="9">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеИнтернетПоддержкаИСервисы</CommandName>
+									<ExtendedTooltip name="АдминистрированиеИнтернетПоддержкаИСервисыРасширеннаяПодсказка" id="10"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа2" id="13">
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="14"/>
+							<ChildItems>
+								<Button name="АдминистрированиеОрганайзер" id="15">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеОрганайзер</CommandName>
+									<ExtendedTooltip name="АдминистрированиеОрганайзерРасширеннаяПодсказка" id="16"/>
+								</Button>
+								<Button name="АдминистрированиеСинхронизацияДанных" id="17">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеСинхронизацияДанных</CommandName>
+									<ExtendedTooltip name="АдминистрированиеСинхронизацияДанныхРасширеннаяПодсказка" id="18"/>
+								</Button>
+								<Button name="АдминистрированиеНастройкиРаботыСФайлами" id="21">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеНастройкиРаботыСФайлами</CommandName>
+									<ExtendedTooltip name="АдминистрированиеНастройкиРаботыСФайламиРасширеннаяПодсказка" id="22"/>
+								</Button>
+								<Button name="АдминистрированиеПечатныеФормыОтчетыИОбработки" id="19">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АдминистрированиеПечатныеФормыОтчетыИОбработки</CommandName>
+									<ExtendedTooltip name="АдминистрированиеПечатныеФормыОтчетыИОбработкиРасширеннаяПодсказка" id="20"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<Commands>
+		<Command name="АдминистрированиеОбслуживание" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обслуживание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Администрирование обслуживание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеОбслуживание</Action>
+		</Command>
+		<Command name="АдминистрированиеОбщиеНастройки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общие настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общие настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеОбщиеНастройки</Action>
+		</Command>
+		<Command name="АдминистрированиеНастройкиПользователейИПрав" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки пользователей и прав</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки пользователей и прав</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеНастройкиПользователейИПрав</Action>
+		</Command>
+		<Command name="АдминистрированиеИнтернетПоддержкаИСервисы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интернет-поддержка и сервисы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интернет-поддержка и сервисы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеИнтернетПоддержкаИСервисы</Action>
+		</Command>
+		<Command name="АдминистрированиеОрганайзер" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Органайзер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Органайзер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеОрганайзер</Action>
+		</Command>
+		<Command name="АдминистрированиеСинхронизацияДанных" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизация данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизация данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеСинхронизацияДанных</Action>
+		</Command>
+		<Command name="АдминистрированиеНастройкиРаботыСФайлами" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки работы с файлами</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки работы с файлами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеНастройкиРаботыСФайлами</Action>
+		</Command>
+		<Command name="АдминистрированиеПечатныеФормыОтчетыИОбработки" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печатные формы, отчеты и обработки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печатные формы, отчеты и обработки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АдминистрированиеПечатныеФормыОтчетыИОбработки</Action>
+		</Command>
+		<Command name="Задачи" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Задачи</Action>
+		</Command>
+		<Command name="Клиенты" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиенты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиенты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Клиенты</Action>
+		</Command>
+		<Command name="Проекты" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проекты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проекты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Проекты</Action>
+		</Command>
+		<Command name="СтатусыЗадач" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статусы задач</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статусы задач</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтатусыЗадач</Action>
+		</Command>
+		<Command name="ФизическиеЛица" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физические лица</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физические лица</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ФизическиеЛица</Action>
+		</Command>
+		<Command name="ИсторияПереписки" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История переписки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История переписки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсторияПереписки</Action>
+		</Command>
+		<Command name="ИсторияСтатусов" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История статусов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История статусов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсторияСтатусов</Action>
+		</Command>
+	</Commands>
+</Form>
