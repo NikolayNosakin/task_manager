@@ -75,13 +75,122 @@
 						<FormattedDocumentField name="ФорматированныйТекст" id="106" DisplayImportance="VeryHigh">
 							<DataPath>ФорматированныйТекст</DataPath>
 							<TitleLocation>None</TitleLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<AutoMaxHeight>false</AutoMaxHeight>
-							<BackColor>#E7E7E7</BackColor>
+							<Height>7</Height>
+							<BackColor>#F8F8F8</BackColor>
 							<BorderColor>#000000</BorderColor>
 							<ContextMenu name="ФорматированныйТекстКонтекстноеМеню" id="107"/>
 							<ExtendedTooltip name="ФорматированныйТекстРасширеннаяПодсказка" id="108"/>
 						</FormattedDocumentField>
+						<UsualGroup name="Группа3" id="164">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подзадачи</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<Representation>None</Representation>
+							<ShowLeftMargin>false</ShowLeftMargin>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="165"/>
+							<ChildItems>
+								<Table name="Подзадачи" id="166">
+									<Representation>List</Representation>
+									<CommandBarLocation>Bottom</CommandBarLocation>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
+									<SelectionMode>SingleRow</SelectionMode>
+									<Header>false</Header>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<SearchOnInput>DontUse</SearchOnInput>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.Подзадачи</DataPath>
+									<CommandSet>
+										<ExcludedCommand>CancelSearch</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+										<ExcludedCommand>Find</ExcludedCommand>
+										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+										<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+									</CommandSet>
+									<ToolTipRepresentation>None</ToolTipRepresentation>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ПодзадачиКонтекстноеМеню" id="167"/>
+									<AutoCommandBar name="ПодзадачиКоманднаяПанель" id="168">
+										<Autofill>false</Autofill>
+										<ChildItems>
+											<Button name="ПодзадачиДобавить" id="188">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ДобавитьСтрокуПодзадачи</CommandName>
+												<ExtendedTooltip name="ПодзадачиДобавитьРасширеннаяПодсказка" id="189"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ПодзадачиРасширеннаяПодсказка" id="169"/>
+									<SearchStringAddition name="ПодзадачиСтрокаПоиска" id="170">
+										<AdditionSource>
+											<Item>Подзадачи</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПодзадачиСтрокаПоискаКонтекстноеМеню" id="171"/>
+										<ExtendedTooltip name="ПодзадачиСтрокаПоискаРасширеннаяПодсказка" id="172"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ПодзадачиСостояниеПросмотра" id="173">
+										<AdditionSource>
+											<Item>Подзадачи</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПодзадачиСостояниеПросмотраКонтекстноеМеню" id="174"/>
+										<ExtendedTooltip name="ПодзадачиСостояниеПросмотраРасширеннаяПодсказка" id="175"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ПодзадачиУправлениеПоиском" id="176">
+										<AdditionSource>
+											<Item>Подзадачи</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ПодзадачиУправлениеПоискомКонтекстноеМеню" id="177"/>
+										<ExtendedTooltip name="ПодзадачиУправлениеПоискомРасширеннаяПодсказка" id="178"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ПодзадачиНомерСтроки" id="179">
+											<DataPath>Объект.Подзадачи.LineNumber</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПодзадачиНомерСтрокиКонтекстноеМеню" id="180"/>
+											<ExtendedTooltip name="ПодзадачиНомерСтрокиРасширеннаяПодсказка" id="181"/>
+										</LabelField>
+										<CheckBoxField name="ПодзадачиВыполнена" id="185">
+											<DataPath>Объект.Подзадачи.Выполнена</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПодзадачиВыполненаКонтекстноеМеню" id="186"/>
+											<ExtendedTooltip name="ПодзадачиВыполненаРасширеннаяПодсказка" id="187"/>
+										</CheckBoxField>
+										<InputField name="ПодзадачиОписание" id="182">
+											<DataPath>Объект.Подзадачи.Описание</DataPath>
+											<SkipOnInput>false</SkipOnInput>
+											<EditMode>Directly</EditMode>
+											<PasswordMode>false</PasswordMode>
+											<ContextMenu name="ПодзадачиОписаниеКонтекстноеМеню" id="183"/>
+											<ExtendedTooltip name="ПодзадачиОписаниеРасширеннаяПодсказка" id="184"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
 						<HTMLDocumentField name="ИсторияПереписки" id="98" DisplayImportance="VeryHigh">
 							<DataPath>ИсторияПереписки</DataPath>
 							<TitleLocation>None</TitleLocation>
@@ -404,6 +513,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьСообщение</Action>
+		</Command>
+		<Command name="ДобавитьСтрокуПодзадачи" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить строку подзадачи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить строку подзадачи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьСтрокуПодзадачи</Action>
 		</Command>
 	</Commands>
 </Form>
