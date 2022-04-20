@@ -191,41 +191,67 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<HTMLDocumentField name="ИсторияПереписки" id="98" DisplayImportance="VeryHigh">
-							<DataPath>ИсторияПереписки</DataPath>
-							<TitleLocation>None</TitleLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<AutoMaxHeight>false</AutoMaxHeight>
-							<BorderColor>#000000</BorderColor>
-							<ContextMenu name="ИсторияПерепискиКонтекстноеМеню" id="99"/>
-							<ExtendedTooltip name="ИсторияПерепискиРасширеннаяПодсказка" id="100"/>
-							<Events>
-								<Event name="DocumentComplete">ИсторияПерепискиДокументСформирован</Event>
-							</Events>
-						</HTMLDocumentField>
-						<InputField name="ТекстСообщения" id="101">
-							<DataPath>ТекстСообщения</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Новое сообщение</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Top</TitleLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<AutoMaxHeight>false</AutoMaxHeight>
-							<MultiLine>true</MultiLine>
-							<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="102"/>
-							<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="103"/>
-						</InputField>
-						<Button name="ОтправитьСообщение" id="104">
-							<Type>UsualButton</Type>
-							<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-							<CommandName>Form.Command.ОтправитьСообщение</CommandName>
-							<BackColor>#FFFF00</BackColor>
-							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-							<ExtendedTooltip name="ОтправитьСообщениеРасширеннаяПодсказка" id="105"/>
-						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="Группа5" id="190">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переписка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="191"/>
+					<ChildItems>
+						<UsualGroup name="Группа6" id="192">
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="193"/>
+							<ChildItems>
+								<HTMLDocumentField name="ИсторияПереписки" id="98" DisplayImportance="VeryHigh">
+									<DataPath>ИсторияПереписки</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<BorderColor>#000000</BorderColor>
+									<ContextMenu name="ИсторияПерепискиКонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="ИсторияПерепискиРасширеннаяПодсказка" id="100"/>
+									<Events>
+										<Event name="DocumentComplete">ИсторияПерепискиДокументСформирован</Event>
+									</Events>
+								</HTMLDocumentField>
+								<UsualGroup name="Группа7" id="194">
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="195"/>
+									<ChildItems>
+										<InputField name="ТекстСообщения" id="101">
+											<DataPath>ТекстСообщения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Новое сообщение</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Top</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<MultiLine>true</MultiLine>
+											<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="103"/>
+										</InputField>
+										<Button name="ОтправитьСообщение" id="104">
+											<Type>UsualButton</Type>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<CommandName>Form.Command.ОтправитьСообщение</CommandName>
+											<BackColor>#FFFF00</BackColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ExtendedTooltip name="ОтправитьСообщениеРасширеннаяПодсказка" id="105"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="Дополнительно" id="88">

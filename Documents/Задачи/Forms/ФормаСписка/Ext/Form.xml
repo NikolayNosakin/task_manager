@@ -6,6 +6,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="49">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="50"/>
@@ -159,6 +160,11 @@
 				</CheckBoxField>
 			</ChildItems>
 		</Table>
+		<Button name="Настройки" id="54">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.Настройки</CommandName>
+			<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="55"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -274,4 +280,21 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Настройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Настройки</Action>
+		</Command>
+	</Commands>
 </Form>

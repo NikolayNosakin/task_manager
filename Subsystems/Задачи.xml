@@ -19,6 +19,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Задачи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСтатусовЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияПереписки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСообщенийEmail</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

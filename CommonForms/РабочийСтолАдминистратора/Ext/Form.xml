@@ -12,6 +12,7 @@
 		<UsualGroup name="Группа5" id="43">
 			<Group>Vertical</Group>
 			<HorizontalAlign>Left</HorizontalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="44"/>
@@ -38,9 +39,11 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<ExtendedTooltip name="НСИРасширеннаяПодсказка" id="24"/>
 					<ChildItems>
 						<UsualGroup name="Группа3" id="37">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="38"/>
@@ -68,6 +71,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа4" id="39">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="40"/>
@@ -100,10 +104,12 @@
 						</v8:item>
 					</ToolTip>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ExtendedTooltip name="АдминистрированиеРасширеннаяПодсказка" id="2"/>
 					<ChildItems>
 						<UsualGroup name="Группа1" id="11">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="12"/>
@@ -132,6 +138,7 @@
 						</UsualGroup>
 						<UsualGroup name="Группа2" id="13">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="14"/>
@@ -162,6 +169,11 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="НастройкиТекущегоПользователя" id="45">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.НастройкиТекущегоПользователя</CommandName>
+			<ExtendedTooltip name="НастройкиТекущегоПользователяРасширеннаяПодсказка" id="46"/>
+		</Button>
 	</ChildItems>
 	<Attributes/>
 	<Commands>
@@ -389,6 +401,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИсторияСтатусов</Action>
+		</Command>
+		<Command name="НастройкиТекущегоПользователя" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки текущего пользователя</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки текущего пользователя</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастройкиТекущегоПользователя</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -53,22 +53,22 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>0.0.0.2</Version>
-			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_task_manager</UpdateCatalogAddress>
+			<Version>1.0.1.1</Version>
+			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_task_manager/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
 			<AdditionalFullTextSearchDictionaries/>
 			<CommonSettingsStorage/>
 			<ReportsUserSettingsStorage/>
-			<ReportsVariantsStorage/>
+			<ReportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</ReportsVariantsStorage>
 			<FormDataSettingsStorage/>
 			<DynamicListsUserSettingsStorage/>
 			<URLExternalDataStorage/>
 			<Content/>
-			<DefaultReportForm/>
-			<DefaultReportVariantForm/>
-			<DefaultReportSettingsForm/>
+			<DefaultReportForm>CommonForm.ФормаОтчета</DefaultReportForm>
+			<DefaultReportVariantForm>CommonForm.ФормаВариантаОтчета</DefaultReportVariantForm>
+			<DefaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</DefaultReportSettingsForm>
 			<DefaultDynamicListSettingsForm/>
 			<DefaultSearchForm/>
 			<DefaultDataHistoryChangeHistoryForm/>
@@ -281,6 +281,12 @@
 			<StyleItem>ЦветФонаОтрицательногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПоложительногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
+			<Style>СтильОформленияЗеленый</Style>
+			<Style>СтильОформленияРозовый</Style>
+			<Style>СтильОформленияСерый</Style>
+			<Style>СтильОформленияСиний</Style>
+			<Style>СтильОформленияТемноСерый</Style>
+			<Style>СтильОформленияТемный</Style>
 			<CommonPicture>BotFather</CommonPicture>
 			<CommonPicture>ЗаставкаВнешнейОперации</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛево</CommonPicture>
@@ -651,6 +657,13 @@
 			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>УдалитьИнформация</CommonPicture>
+			<CommonPicture>СтильОформления_ПоУмолчанию</CommonPicture>
+			<CommonPicture>СтильОформленияЗеленый</CommonPicture>
+			<CommonPicture>СтильОформленияРозовый</CommonPicture>
+			<CommonPicture>СтильОформленияСерый</CommonPicture>
+			<CommonPicture>СтильОформленияСиний</CommonPicture>
+			<CommonPicture>СтильОформленияТемноСерый</CommonPicture>
+			<CommonPicture>СтильОформленияТемный</CommonPicture>
 			<SessionParameter>ВнешнийАдресИБ</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
@@ -851,7 +864,7 @@
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиентСервер</CommonModule>
-			<CommonModule>ОбщийМодульTaskManager</CommonModule>
+			<CommonModule>ТМ_ОбщегоНазначения</CommonModule>
 			<CommonModule>ОтчетыКлиент</CommonModule>
 			<CommonModule>ОтчетыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОтчетыКлиентСервер</CommonModule>
@@ -1231,6 +1244,7 @@
 			<CommonForm>НастройкаМоихОтчетовИОбработок</CommonForm>
 			<CommonForm>НастройкаРабочегоКаталога</CommonForm>
 			<CommonForm>НастройкиВходаПользователей</CommonForm>
+			<CommonForm>НастройкиПользователя</CommonForm>
 			<CommonForm>НастройкиСинхронизацииДанных</CommonForm>
 			<CommonForm>НовыйПароль</CommonForm>
 			<CommonForm>ОписаниеИзмененийПрограммы</CommonForm>
@@ -1332,6 +1346,7 @@
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветаЗаметок</Enum>
 			<Enum>ЦветностиИзображения</Enum>
+			<Enum>ТипСообщенияEmail</Enum>
 			<Report>АнализЖурналаРегистрации</Report>
 			<Report>МестаИспользованияСсылок</Report>
 			<Report>ОбъемНенужныхФайлов</Report>
@@ -1441,6 +1456,9 @@
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>УдаляемыеОбъекты</InformationRegister>
 			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
+			<InformationRegister>ИсторияСообщенийEmail</InformationRegister>
+			<InformationRegister>НастройкиПользователей</InformationRegister>
+			<ChartOfCharacteristicTypes>ПраваИНастройки</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
