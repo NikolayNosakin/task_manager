@@ -399,6 +399,7 @@
 							<ExtendedTooltip name="ИсполнителиРасширеннаяПодсказка" id="154"/>
 							<Events>
 								<Event name="OnChange">ИсполнителиПриИзменении</Event>
+								<Event name="StartChoice">ИсполнителиНачалоВыбора</Event>
 							</Events>
 						</InputField>
 						<InputField name="Участники" id="155">

@@ -1271,6 +1271,7 @@
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
+			<CommonForm>ФормаПодбораСпискаЗначений</CommonForm>
 			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
