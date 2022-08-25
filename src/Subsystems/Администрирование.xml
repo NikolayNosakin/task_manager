@@ -78,6 +78,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВосстановлениеПаролей</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>МенеджерЗадач</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

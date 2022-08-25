@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.1.1</Version>
+			<Version>1.0.1.2</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_task_manager/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -286,6 +286,7 @@
 			<StyleItem>ЦветФонаОтрицательногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПоложительногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
+			<Style>СтильОформленияБелый</Style>
 			<Style>СтильОформленияЗеленый</Style>
 			<Style>СтильОформленияРозовый</Style>
 			<Style>СтильОформленияСерый</Style>
@@ -293,7 +294,59 @@
 			<Style>СтильОформленияТемноСерый</Style>
 			<Style>СтильОформленияТемный</Style>
 			<CommonPicture>BotFather</CommonPicture>
-			<CommonPicture>ЗаставкаВнешнейОперации</CommonPicture>
+			<CommonPicture>BotFatherВконтакте</CommonPicture>
+			<CommonPicture>БыстрыеНастройкиОтчета</CommonPicture>
+			<CommonPicture>БыстрыйДоступ</CommonPicture>
+			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
+			<CommonPicture>БыстрыйДоступСФлажком</CommonPicture>
+			<CommonPicture>БыстрыйДоступУдалить</CommonPicture>
+			<CommonPicture>ВариантыОтчетовДоступныеВсемПользователям</CommonPicture>
+			<CommonPicture>ВводимыеСимволыВидны</CommonPicture>
+			<CommonPicture>ВводимыеСимволыСкрыты</CommonPicture>
+			<CommonPicture>ВертикальноеПоложениеВерх</CommonPicture>
+			<CommonPicture>ВертикальноеПоложениеНиз</CommonPicture>
+			<CommonPicture>ВертикальноеПоложениеЦентр</CommonPicture>
+			<CommonPicture>ВидСравнения</CommonPicture>
+			<CommonPicture>ВидыОпераций</CommonPicture>
+			<CommonPicture>ВидыСравнения</CommonPicture>
+			<CommonPicture>ВКонтакте16</CommonPicture>
+			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
+			<CommonPicture>ВнешняяКомпонентаНеДоступна</CommonPicture>
+			<CommonPicture>Вопрос32</CommonPicture>
+			<CommonPicture>ВосклицательныйЗнакКрасный</CommonPicture>
+			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
+			<CommonPicture>ВставитьГруппировкуВыше</CommonPicture>
+			<CommonPicture>ВставитьГруппировкуНиже</CommonPicture>
+			<CommonPicture>ВставитьИзБуфераОбмена</CommonPicture>
+			<CommonPicture>ВставитьКолонкуСлева</CommonPicture>
+			<CommonPicture>ВставитьКолонкуСправа</CommonPicture>
+			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
+			<CommonPicture>ВыполнитьРегламентноеЗаданиеВручную</CommonPicture>
+			<CommonPicture>ВыравниваниеПоЛевомуКраю</CommonPicture>
+			<CommonPicture>ВыравниваниеПоПравомуКраю</CommonPicture>
+			<CommonPicture>ВыравниваниеПоЦентру</CommonPicture>
+			<CommonPicture>ВыравниваниеПоШирине</CommonPicture>
+			<CommonPicture>ВысотаСтроки</CommonPicture>
+			<CommonPicture>ГраницаВезде</CommonPicture>
+			<CommonPicture>ГраницаВнутри</CommonPicture>
+			<CommonPicture>ГраницаВокруг</CommonPicture>
+			<CommonPicture>ГраницаСверху</CommonPicture>
+			<CommonPicture>ГраницаСлева</CommonPicture>
+			<CommonPicture>ГраницаСнизу</CommonPicture>
+			<CommonPicture>ГраницаСправа</CommonPicture>
+			<CommonPicture>Группировка</CommonPicture>
+			<CommonPicture>ДлительнаяОперация16</CommonPicture>
+			<CommonPicture>ДлительнаяОперация48</CommonPicture>
+			<CommonPicture>ДобавитьРодительский</CommonPicture>
+			<CommonPicture>ДобавитьЭлементНастроек</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторВерх</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторВерхНиз</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторЛево</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторЛевоВерх</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторЛевоНиз</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторНиз</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерх</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерхНиз</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛево</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоВерх</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоНиз</CommonPicture>
@@ -308,63 +361,11 @@
 			<CommonPicture>ЗавершитьРедактированиеМакета</CommonPicture>
 			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
 			<CommonPicture>Закрепить</CommonPicture>
-			<CommonPicture>ВертикальноеПоложениеНиз</CommonPicture>
+			<CommonPicture>Заметка</CommonPicture>
 			<CommonPicture>ЗанятьФайл</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
-			<CommonPicture>ДобавитьРодительский</CommonPicture>
-			<CommonPicture>ДобавитьЭлементНастроек</CommonPicture>
-			<CommonPicture>БыстрыеНастройкиОтчета</CommonPicture>
-			<CommonPicture>Заметка</CommonPicture>
-			<CommonPicture>ВКонтакте16</CommonPicture>
-			<CommonPicture>ГраницаСнизу</CommonPicture>
-			<CommonPicture>ВидыСравнения</CommonPicture>
-			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
-			<CommonPicture>ВставитьГруппировкуВыше</CommonPicture>
-			<CommonPicture>ВставитьГруппировкуНиже</CommonPicture>
-			<CommonPicture>ВставитьИзБуфераОбмена</CommonPicture>
-			<CommonPicture>ВставитьКолонкуСлева</CommonPicture>
-			<CommonPicture>ВводимыеСимволыВидны</CommonPicture>
-			<CommonPicture>ВертикальноеПоложениеЦентр</CommonPicture>
-			<CommonPicture>БыстрыйДоступУдалить</CommonPicture>
-			<CommonPicture>ВосклицательныйЗнакКрасный</CommonPicture>
-			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
-			<CommonPicture>BotFatherВконтакте</CommonPicture>
-			<CommonPicture>ВертикальноеПоложениеВерх</CommonPicture>
-			<CommonPicture>ВариантыОтчетовДоступныеВсемПользователям</CommonPicture>
-			<CommonPicture>ВидыОпераций</CommonPicture>
+			<CommonPicture>ЗаставкаВнешнейОперации</CommonPicture>
 			<CommonPicture>Зашифрован</CommonPicture>
-			<CommonPicture>БыстрыйДоступСФлажком</CommonPicture>
-			<CommonPicture>ВводимыеСимволыСкрыты</CommonPicture>
-			<CommonPicture>БыстрыйДоступ</CommonPicture>
-			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
-			<CommonPicture>ВнешняяКомпонентаНеДоступна</CommonPicture>
-			<CommonPicture>ВидСравнения</CommonPicture>
-			<CommonPicture>ВставитьКолонкуСправа</CommonPicture>
-			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
-			<CommonPicture>ВыполнитьРегламентноеЗаданиеВручную</CommonPicture>
-			<CommonPicture>ВыравниваниеПоЛевомуКраю</CommonPicture>
-			<CommonPicture>ВыравниваниеПоПравомуКраю</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторВерх</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторВерхНиз</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторНиз</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерх</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторЛево</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторЛевоВерх</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторЛевоНиз</CommonPicture>
-			<CommonPicture>ВыравниваниеПоЦентру</CommonPicture>
-			<CommonPicture>ВыравниваниеПоШирине</CommonPicture>
-			<CommonPicture>ВысотаСтроки</CommonPicture>
-			<CommonPicture>ГраницаВезде</CommonPicture>
-			<CommonPicture>ГраницаВнутри</CommonPicture>
-			<CommonPicture>ГраницаВокруг</CommonPicture>
-			<CommonPicture>ГраницаСверху</CommonPicture>
-			<CommonPicture>ГраницаСлева</CommonPicture>
-			<CommonPicture>Вопрос32</CommonPicture>
-			<CommonPicture>ГраницаСправа</CommonPicture>
-			<CommonPicture>Группировка</CommonPicture>
-			<CommonPicture>ДлительнаяОперация16</CommonPicture>
-			<CommonPicture>ДлительнаяОперация48</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерхНиз</CommonPicture>
 			<CommonPicture>ЗнакСтоп</CommonPicture>
 			<CommonPicture>ЗначокЗаставкиВнешнейОперации</CommonPicture>
 			<CommonPicture>ЗначокЩита</CommonPicture>
@@ -640,6 +641,7 @@
 			<CommonPicture>ТолстаяГраницаСверху</CommonPicture>
 			<CommonPicture>ТолстаяГраницаСнизу</CommonPicture>
 			<CommonPicture>УвеличитьШрифт</CommonPicture>
+			<CommonPicture>УдалитьИнформация</CommonPicture>
 			<CommonPicture>УменьшитьШрифт</CommonPicture>
 			<CommonPicture>Успешно</CommonPicture>
 			<CommonPicture>Успешно32</CommonPicture>
@@ -661,14 +663,6 @@
 			<CommonPicture>Шрифт</CommonPicture>
 			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
-			<CommonPicture>УдалитьИнформация</CommonPicture>
-			<CommonPicture>СтильОформления_ПоУмолчанию</CommonPicture>
-			<CommonPicture>СтильОформленияЗеленый</CommonPicture>
-			<CommonPicture>СтильОформленияРозовый</CommonPicture>
-			<CommonPicture>СтильОформленияСерый</CommonPicture>
-			<CommonPicture>СтильОформленияСиний</CommonPicture>
-			<CommonPicture>СтильОформленияТемноСерый</CommonPicture>
-			<CommonPicture>СтильОформленияТемный</CommonPicture>
 			<SessionParameter>ВнешнийАдресИБ</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
@@ -817,6 +811,9 @@
 			<CommonModule>КонструкторФормулКлиент</CommonModule>
 			<CommonModule>КонструкторФормулКлиентСервер</CommonModule>
 			<CommonModule>КонструкторФормулСлужебный</CommonModule>
+			<CommonModule>мз_ОбщегоНазначения</CommonModule>
+			<CommonModule>мз_СобытияФормКлиент</CommonModule>
+			<CommonModule>мз_СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>НапоминанияПользователя</CommonModule>
 			<CommonModule>НапоминанияПользователяВызовСервера</CommonModule>
 			<CommonModule>НапоминанияПользователяГлобальный</CommonModule>
@@ -842,13 +839,13 @@
 			<CommonModule>ОбменДаннымиСлужебный</CommonModule>
 			<CommonModule>ОбменДаннымиСобытия</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыTaskManager</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыБСД</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыГлобальный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиентПереопределяемый</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыМенеджерЗадач</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйВызовСервера</CommonModule>
@@ -869,7 +866,6 @@
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиентСервер</CommonModule>
-			<CommonModule>мз_ОбщегоНазначения</CommonModule>
 			<CommonModule>ОтчетыКлиент</CommonModule>
 			<CommonModule>ОтчетыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОтчетыКлиентСервер</CommonModule>
@@ -1243,13 +1239,15 @@
 			<CommonForm>ДополнительноеОписание</CommonForm>
 			<CommonForm>ДополнительныеОтчетыИОбработки</CommonForm>
 			<CommonForm>КонтрольДинамическогоОбновления</CommonForm>
+			<CommonForm>мз_РабочийСтолАдминистратора</CommonForm>
+			<CommonForm>мз_СменитьСтиль</CommonForm>
+			<CommonForm>мз_ФормаПодбораСпискаЗначений</CommonForm>
 			<CommonForm>НапоминаниеПриРедактировании</CommonForm>
 			<CommonForm>НастройкаКолонтитулов</CommonForm>
 			<CommonForm>НастройкаКомандПечати</CommonForm>
 			<CommonForm>НастройкаМоихОтчетовИОбработок</CommonForm>
 			<CommonForm>НастройкаРабочегоКаталога</CommonForm>
 			<CommonForm>НастройкиВходаПользователей</CommonForm>
-			<CommonForm>НастройкиПользователя</CommonForm>
 			<CommonForm>НастройкиСинхронизацииДанных</CommonForm>
 			<CommonForm>НовыйПароль</CommonForm>
 			<CommonForm>ОписаниеИзмененийПрограммы</CommonForm>
@@ -1262,7 +1260,6 @@
 			<CommonForm>ПредупреждениеБезопасности</CommonForm>
 			<CommonForm>ПредупрежденияПриЗавершенииРаботы</CommonForm>
 			<CommonForm>ПустойРабочийСтол</CommonForm>
-			<CommonForm>РабочийСтолАдминистратора</CommonForm>
 			<CommonForm>Расширения</CommonForm>
 			<CommonForm>РедактированиеТабличногоДокумента</CommonForm>
 			<CommonForm>СвязанныеДокументы</CommonForm>
@@ -1276,7 +1273,6 @@
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
-			<CommonForm>ФормаПодбораСпискаЗначений</CommonForm>
 			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
@@ -1315,12 +1311,14 @@
 			<Enum>ВариантыСжатияTIFF</Enum>
 			<Enum>ВидыДополнительныхОтчетовИОбработок</Enum>
 			<Enum>ВидыПравилДляОбменаДанными</Enum>
-			<Enum>мз_ВидыСтатусов</Enum>
 			<Enum>ВидыТранспортаСообщенийОбмена</Enum>
 			<Enum>ДействияПриОбмене</Enum>
 			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
 			<Enum>ДоступныеПериодыОтчета</Enum>
 			<Enum>ИсточникиПравилДляОбменаДанными</Enum>
+			<Enum>мз_ВидыСтатусов</Enum>
+			<Enum>мз_Статусы</Enum>
+			<Enum>мз_ТипСообщенияEmail</Enum>
 			<Enum>ОперацииАдминистрированияПрофилейБезопасности</Enum>
 			<Enum>ПериодОчисткиФайлов</Enum>
 			<Enum>ПриоритетыОбъектовОбмена</Enum>
@@ -1353,8 +1351,6 @@
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветаЗаметок</Enum>
 			<Enum>ЦветностиИзображения</Enum>
-			<Enum>ТипСообщенияEmail</Enum>
-			<Enum>мз_Статусы</Enum>
 			<Report>АнализЖурналаРегистрации</Report>
 			<Report>МестаИспользованияСсылок</Report>
 			<Report>ОбъемНенужныхФайлов</Report>
@@ -1420,6 +1416,8 @@
 			<InformationRegister>ИсторияСтатусовЗадач</InformationRegister>
 			<InformationRegister>КодировкиФайлов</InformationRegister>
 			<InformationRegister>КэшПрограммныхИнтерфейсов</InformationRegister>
+			<InformationRegister>мз_ИсторияСообщенийEmail</InformationRegister>
+			<InformationRegister>мз_НастройкиПользователей</InformationRegister>
 			<InformationRegister>НазначениеДополнительныхОбработок</InformationRegister>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>НапоминанияПользователя</InformationRegister>
@@ -1464,8 +1462,6 @@
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>УдаляемыеОбъекты</InformationRegister>
 			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
-			<InformationRegister>мз_ИсторияСообщенийEmail</InformationRegister>
-			<InformationRegister>мз_НастройкиПользователей</InformationRegister>
 			<ChartOfCharacteristicTypes>мз_ПраваИНастройки</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>

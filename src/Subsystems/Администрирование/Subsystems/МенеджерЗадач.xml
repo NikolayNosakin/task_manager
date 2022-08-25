@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Subsystem uuid="1ccd55e5-0d87-497f-8c0f-8636afdb79cd">
+		<Properties>
+			<Name>МенеджерЗадач</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Менеджер задач</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыМенеджерЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мз_ОбщегоНазначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мз_СобытияФормКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мз_СтандартныеПодсистемыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ВнешнийАдресИБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.мз_ЧтениеНСИ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.мз_ДобавлениеНСИ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.мз_СменитьСтиль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.мз_РабочийСтолАдминистратора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.мз_ФормаПодбораСпискаЗначений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияБелый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияЗеленый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияРозовый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияСиний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияТемный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияТемноСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.мз_ПраваИНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_НастройкиПользователей</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

@@ -1,25 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.15">
-	<Item id="0a9d1455-eba8-4a2c-b5c8-c981dceff711">
-		<Name>Общее</Name>
-		<Code>000000001</Code>
-		<Description>Общее</Description>
+	<Item id="0e0c0501-83c2-4ce6-98ce-166399e02bb1">
+		<Name>Интерфейс</Name>
+		<Code>000000003</Code>
+		<Description>Интерфейс</Description>
 		<Type/>
 		<IsFolder>true</IsFolder>
 		<ChildItems>
-			<Item id="86e2b447-84ca-4398-a9cb-d16a0ca1998b">
-				<Name>ЦветИнтерфейса</Name>
-				<Code>000000002</Code>
-				<Description>Цвет интерфейса</Description>
+			<Item id="4bb48681-f207-4f2b-99da-4b6265b0bb82">
+				<Name>МасштабФорм</Name>
+				<Code>000000004</Code>
+				<Description>Масштаб форм</Description>
 				<Type>
 					<v8:Type>xs:string</v8:Type>
 					<v8:StringQualifiers>
-						<v8:Length>75</v8:Length>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3525b426-e82c-432c-b8c3-b72ab0044693">
+				<Name>Стиль</Name>
+				<Code>000000005</Code>
+				<Description>Стиль</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
 					</v8:StringQualifiers>
 				</Type>
 				<IsFolder>false</IsFolder>
 			</Item>
 		</ChildItems>
+	</Item>
+	<Item id="0a9d1455-eba8-4a2c-b5c8-c981dceff711">
+		<Name>Общее</Name>
+		<Code>000000001</Code>
+		<Description>Общее</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
 	</Item>
 </PredefinedData>
