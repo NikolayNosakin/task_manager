@@ -35,6 +35,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияТемноСерый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.мз_ПраваИНастройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_НастройкиПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мз_МусорныйБак</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.мз_ИспользоватьСложныеСтатусы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.мз_ИспользоватьБригадыВместоИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьБригадыВместоИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьСложныеСтатусы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.мз_ИспользоватьВидыЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьВидыЗадач</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

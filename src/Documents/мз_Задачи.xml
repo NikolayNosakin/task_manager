@@ -704,18 +704,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="11a52467-ceda-41b8-9a7e-f0c5dbf57ced">
+			<Attribute uuid="ead62281-ae14-4585-a8ce-9f537da9e326">
 				<Properties>
-					<Name>п_Статус</Name>
+					<Name>Бригада</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус</v8:content>
+							<v8:content>Бригада</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.мз_Статусы</v8:Type>
+						<v8:Type>cfg:CatalogRef.мз_Бригады</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -743,18 +743,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="ead62281-ae14-4585-a8ce-9f537da9e326">
+			<Attribute uuid="b5d5b6ea-2a85-409b-8979-55272f59dd71">
 				<Properties>
-					<Name>Бригада</Name>
+					<Name>ВидЗадачи</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Бригада</v8:content>
+							<v8:content>Вид задачи</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.мз_Бригады</v8:Type>
+						<v8:Type>cfg:CatalogRef.мз_ВидыЗадач</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

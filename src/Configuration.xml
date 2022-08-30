@@ -663,6 +663,7 @@
 			<CommonPicture>Шрифт</CommonPicture>
 			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
+			<CommonPicture>мз_МусорныйБак</CommonPicture>
 			<SessionParameter>ВнешнийАдресИБ</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
@@ -1085,6 +1086,9 @@
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
 			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьСложныеСтатусы</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьБригадыВместоИсполнителей</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьВидыЗадач</FunctionalOption>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<DefinedType>БезопасныйРежим</DefinedType>
@@ -1218,6 +1222,9 @@
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
+			<Constant>мз_ИспользоватьСложныеСтатусы</Constant>
+			<Constant>мз_ИспользоватьБригадыВместоИсполнителей</Constant>
+			<Constant>мз_ИспользоватьВидыЗадач</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
@@ -1302,6 +1309,7 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>мз_ВидыЗадач</Catalog>
 			<Document>мз_Задачи</Document>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
@@ -1317,7 +1325,6 @@
 			<Enum>ДоступныеПериодыОтчета</Enum>
 			<Enum>ИсточникиПравилДляОбменаДанными</Enum>
 			<Enum>мз_ВидыСтатусов</Enum>
-			<Enum>мз_Статусы</Enum>
 			<Enum>мз_ТипСообщенияEmail</Enum>
 			<Enum>ОперацииАдминистрированияПрофилейБезопасности</Enum>
 			<Enum>ПериодОчисткиФайлов</Enum>
