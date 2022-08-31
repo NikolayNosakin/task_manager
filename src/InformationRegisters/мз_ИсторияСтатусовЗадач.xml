@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<InformationRegister uuid="d811c4d2-796f-4d27-a5ac-2bf72d834230">
+	<InformationRegister uuid="757d56e7-c953-45e0-a8bc-3388c7db90c9">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.мз_ИсторияСообщенийEmail" category="Record">
-				<xr:TypeId>0b737ee4-5f7f-4d3e-9da3-07f62e9f114f</xr:TypeId>
-				<xr:ValueId>ac43f07d-111a-4717-8521-40574c898d27</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.мз_ИсторияСтатусовЗадач" category="Record">
+				<xr:TypeId>8b975de6-e1f3-4da2-ba0d-73f27412a9d2</xr:TypeId>
+				<xr:ValueId>605dc853-4212-4bf5-bbc7-499cd0b6585f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.мз_ИсторияСообщенийEmail" category="Manager">
-				<xr:TypeId>8895d20e-e44b-4643-af42-c21324f606cd</xr:TypeId>
-				<xr:ValueId>f9b5c9a3-6658-451a-8c7a-eda49cdb239e</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.мз_ИсторияСтатусовЗадач" category="Manager">
+				<xr:TypeId>0c4ebb08-ec87-4f45-85b5-59c55905723d</xr:TypeId>
+				<xr:ValueId>858b97ae-a6f8-48c4-858a-44852ca7d938</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.мз_ИсторияСообщенийEmail" category="Selection">
-				<xr:TypeId>c6ba9e9b-daa1-4db0-b23e-e22510032927</xr:TypeId>
-				<xr:ValueId>659bc68a-5840-47cb-bbe6-65b1007bfbe1</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.мз_ИсторияСтатусовЗадач" category="Selection">
+				<xr:TypeId>00c2a4b4-085b-4514-90f4-77bf2089cb7d</xr:TypeId>
+				<xr:ValueId>8c319cb5-7826-4594-b43b-9689525726bf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.мз_ИсторияСообщенийEmail" category="List">
-				<xr:TypeId>32e53ca4-d0f1-4a45-b766-370f72facf43</xr:TypeId>
-				<xr:ValueId>18d99490-6295-4272-a1cd-1ee63aeb9ba8</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.мз_ИсторияСтатусовЗадач" category="List">
+				<xr:TypeId>1f1c65aa-10b7-4697-bb3d-5bde4d251a0f</xr:TypeId>
+				<xr:ValueId>4db2e5da-2a9b-49be-953d-a3ff702871eb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.мз_ИсторияСообщенийEmail" category="RecordSet">
-				<xr:TypeId>58d91536-e546-452c-8e7a-dc4221f4c5d6</xr:TypeId>
-				<xr:ValueId>6f6badb8-f846-4d5c-abb4-a131e8051747</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.мз_ИсторияСтатусовЗадач" category="RecordSet">
+				<xr:TypeId>677137b1-9d28-4738-9b6f-fc19a31e9c40</xr:TypeId>
+				<xr:ValueId>05199886-1101-4fd2-a766-aeb028e6693c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.мз_ИсторияСообщенийEmail" category="RecordKey">
-				<xr:TypeId>950362fe-c92a-49a4-a523-945b9d720909</xr:TypeId>
-				<xr:ValueId>47ef8433-3ef2-46f4-8e52-1b9d91da3816</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.мз_ИсторияСтатусовЗадач" category="RecordKey">
+				<xr:TypeId>515146f3-502b-403a-a809-e484ab5a1b9a</xr:TypeId>
+				<xr:ValueId>e45a222d-ba74-465c-8ff4-fd770c72cbf1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.мз_ИсторияСообщенийEmail" category="RecordManager">
-				<xr:TypeId>d11002d0-0b66-4f9e-bdb4-1e7354f829c8</xr:TypeId>
-				<xr:ValueId>5cd92b2b-095a-4625-9bcd-f7a7c345e466</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.мз_ИсторияСтатусовЗадач" category="RecordManager">
+				<xr:TypeId>a00d1cc6-d54a-481f-b65c-0d9b5b050538</xr:TypeId>
+				<xr:ValueId>2baf1d75-aae9-404f-bbaa-1f09e1868050</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>мз_ИсторияСообщенийEmail</Name>
+			<Name>мз_ИсторияСтатусовЗадач</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>История сообщений email</v8:content>
+					<v8:content>История статусов задач</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
-			<DefaultListForm/>
+			<DefaultRecordForm>InformationRegister.мз_ИсторияСтатусовЗадач.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.мз_ИсторияСтатусовЗадач.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<MainFilterOnPeriod>true</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
@@ -64,20 +64,98 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="75fd3f13-fc49-4306-a012-5f02a6bfc281">
+			<Resource uuid="9c970b36-18c5-448a-a94d-de5f709a27e4">
 				<Properties>
-					<Name>Сообщение</Name>
+					<Name>Статус</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сообщение</v8:content>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.мз_СтатусыЗадач</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Attribute uuid="7ca2f444-0d05-47b7-9a55-b1abedc8a37b">
+				<Properties>
+					<Name>Пользователь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c0c572b9-c432-4706-baae-48afc2ad5fe8">
+				<Properties>
+					<Name>Комментарий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
+							<v8:Length>512</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -107,85 +185,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="578f38a6-3479-42a2-a041-5fb4be03bb1d">
-				<Properties>
-					<Name>Тип</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тип</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:EnumRef.мз_ТипСообщенияEmail</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="c207db7a-ff8e-4874-9571-f6e7e4181a2a">
-				<Properties>
-					<Name>Отправлено</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отправлено</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Dimension uuid="c8108998-d4f5-4d2a-bfba-d454ad825fca">
+			<Dimension uuid="d780c20c-917c-48e1-9be8-5d29590d2e12">
 				<Properties>
 					<Name>Задача</Name>
 					<Synonym>
@@ -219,7 +219,7 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
+					<Master>true</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
@@ -227,6 +227,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
+			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

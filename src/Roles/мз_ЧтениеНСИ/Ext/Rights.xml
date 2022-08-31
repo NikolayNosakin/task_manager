@@ -186,7 +186,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЗадачиПрисоединенныеФайлы</name>
+		<name>Catalog.мз_ЗадачиПрисоединенныеФайлы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -313,17 +313,6 @@
 		<name>SessionParameter.ВыполняетсяУдалениеОбъектов</name>
 		<right>
 			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ИсторияСтатусовЗадач</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -793,7 +782,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ИсторияПереписки</name>
+		<name>InformationRegister.мз_ИсторияПереписки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

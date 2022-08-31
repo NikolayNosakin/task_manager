@@ -42,6 +42,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьСложныеСтатусы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.мз_ИспользоватьВидыЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьВидыЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мз_ПеренестиВремя</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

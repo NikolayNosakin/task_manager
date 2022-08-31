@@ -12,22 +12,10 @@
 		<Description>Выполненная</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="2b2e2b63-a601-4fe7-a1cd-424b2a24fc7d">
-		<Name>Завершенная</Name>
-		<Code>000000005</Code>
-		<Description>Завершенная</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="b0d63a96-5eff-4861-b4e3-521fee7a9c94">
 		<Name>Новая</Name>
 		<Code>000000001</Code>
 		<Description>Новая</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="59b9a173-e691-423a-89c3-25f21b283961">
-		<Name>НоваяПринята</Name>
-		<Code>000000002</Code>
-		<Description>Новая - Принята</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="222e737d-0c14-4c6e-9370-969c4e61b97e">

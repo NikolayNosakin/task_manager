@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Задача" id="4">
+			<DataPath>Запись.Задача</DataPath>
+			<ContextMenu name="ЗадачаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ЗадачаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Статус" id="7">
+			<DataPath>Запись.Статус</DataPath>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Пользователь" id="10">
+			<DataPath>Запись.Пользователь</DataPath>
+			<ContextMenu name="ПользовательКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Комментарий" id="13">
+			<DataPath>Запись.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.мз_ИсторияСтатусовЗадач</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

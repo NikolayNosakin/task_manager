@@ -2,37 +2,37 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<InformationRegister uuid="a3717c26-3847-44ff-9ff1-4c633972d2b2">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ИсторияПереписки" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.мз_ИсторияПереписки" category="Record">
 				<xr:TypeId>59853829-b05d-4fbd-b36a-ad22dac78d5c</xr:TypeId>
 				<xr:ValueId>fa53a5b8-5aad-4685-8f44-b3df1a9ecf6d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ИсторияПереписки" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.мз_ИсторияПереписки" category="Manager">
 				<xr:TypeId>2ea2ea14-6afe-410f-a165-8b90c12c1fea</xr:TypeId>
 				<xr:ValueId>6e9255fd-507f-4f35-af11-6a72c2fcdcda</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ИсторияПереписки" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.мз_ИсторияПереписки" category="Selection">
 				<xr:TypeId>88dd4378-0f93-44ab-8917-ff8f0af9938d</xr:TypeId>
 				<xr:ValueId>c378206e-893d-41f3-a010-880fdd7d8c28</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ИсторияПереписки" category="List">
+			<xr:GeneratedType name="InformationRegisterList.мз_ИсторияПереписки" category="List">
 				<xr:TypeId>7e8947ef-cf60-42c7-82d8-b28c799dc1f5</xr:TypeId>
 				<xr:ValueId>42fbb79b-c43d-483f-b6d5-dd47e602e0d2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ИсторияПереписки" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.мз_ИсторияПереписки" category="RecordSet">
 				<xr:TypeId>861f8d61-4dd4-4f79-9dfb-efe2c6541ab3</xr:TypeId>
 				<xr:ValueId>148282ad-1fa8-4602-b3e0-68f6cecd3641</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ИсторияПереписки" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.мз_ИсторияПереписки" category="RecordKey">
 				<xr:TypeId>200226ae-18f5-4c26-bc6e-03d2c7fab878</xr:TypeId>
 				<xr:ValueId>98f54f37-8cb5-477e-90ea-e6a549158c20</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ИсторияПереписки" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.мз_ИсторияПереписки" category="RecordManager">
 				<xr:TypeId>b3f4425a-d2d8-4210-8dfa-3bde1cb1822e</xr:TypeId>
 				<xr:ValueId>fc5d47b4-6262-415e-97f3-6089a72f7633</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ИсторияПереписки</Name>
+			<Name>мз_ИсторияПереписки</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -42,8 +42,8 @@
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.ИсторияПереписки.Form.ФормаЗаписи</DefaultRecordForm>
-			<DefaultListForm>InformationRegister.ИсторияПереписки.Form.ФормаСписка</DefaultListForm>
+			<DefaultRecordForm>InformationRegister.мз_ИсторияПереписки.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.мз_ИсторияПереписки.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<StandardAttributes>
@@ -236,7 +236,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -247,9 +247,9 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
+					<Master>true</Master>
 					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>

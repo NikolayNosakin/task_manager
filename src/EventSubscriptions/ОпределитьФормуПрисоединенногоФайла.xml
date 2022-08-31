@@ -11,7 +11,7 @@
 			</Synonym>
 			<Comment/>
 			<Source>
-				<v8:Type>cfg:CatalogManager.ЗадачиПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.мз_ЗадачиПрисоединенныеФайлы</v8:Type>
 			</Source>
 			<Event>FormGetProcessing</Event>
 			<Handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</Handler>

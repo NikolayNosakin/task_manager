@@ -47,7 +47,7 @@
 	<Attributes>
 		<Attribute name="Запись" id="1">
 			<Type>
-				<v8:Type>cfg:InformationRegisterRecordManager.ИсторияПереписки</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.мз_ИсторияПереписки</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

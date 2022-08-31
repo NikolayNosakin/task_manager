@@ -53,8 +53,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.1.2</Version>
-			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_task_manager/releases/latest</UpdateCatalogAddress>
+			<Version>1.1.1.1</Version>
+			<UpdateCatalogAddress>https://github.com/NikolayNosakin/task_manager/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -226,7 +226,7 @@
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>https://github.com/NikolayNosakin/1c_task_manager</v8:content>
+					<v8:content>https://github.com/NikolayNosakin/task_manager</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -664,6 +664,7 @@
 			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>мз_МусорныйБак</CommonPicture>
+			<CommonPicture>мз_ПеренестиВремя</CommonPicture>
 			<SessionParameter>ВнешнийАдресИБ</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
@@ -813,6 +814,7 @@
 			<CommonModule>КонструкторФормулКлиентСервер</CommonModule>
 			<CommonModule>КонструкторФормулСлужебный</CommonModule>
 			<CommonModule>мз_ОбщегоНазначения</CommonModule>
+			<CommonModule>мз_Служебный</CommonModule>
 			<CommonModule>мз_СобытияФормКлиент</CommonModule>
 			<CommonModule>мз_СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>НапоминанияПользователя</CommonModule>
@@ -1288,12 +1290,13 @@
 			<Catalog>ГруппыВнешнихПользователей</Catalog>
 			<Catalog>ГруппыПользователей</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
-			<Catalog>ЗадачиПрисоединенныеФайлы</Catalog>
 			<Catalog>Заметки</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<Catalog>МакетыПечатныхФорм</Catalog>
 			<Catalog>мз_Бригады</Catalog>
+			<Catalog>мз_ВидыЗадач</Catalog>
+			<Catalog>мз_ЗадачиПрисоединенныеФайлы</Catalog>
 			<Catalog>мз_Клиенты</Catalog>
 			<Catalog>мз_Проекты</Catalog>
 			<Catalog>мз_СтатусыЗадач</Catalog>
@@ -1309,7 +1312,6 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
-			<Catalog>мз_ВидыЗадач</Catalog>
 			<Document>мз_Задачи</Document>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
@@ -1419,11 +1421,11 @@
 			<InformationRegister>ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</InformationRegister>
 			<InformationRegister>ИдентификаторыОбъектовВерсийРасширений</InformationRegister>
 			<InformationRegister>ИзмененияОбщихДанныхУзлов</InformationRegister>
-			<InformationRegister>ИсторияПереписки</InformationRegister>
-			<InformationRegister>ИсторияСтатусовЗадач</InformationRegister>
 			<InformationRegister>КодировкиФайлов</InformationRegister>
 			<InformationRegister>КэшПрограммныхИнтерфейсов</InformationRegister>
+			<InformationRegister>мз_ИсторияПереписки</InformationRegister>
 			<InformationRegister>мз_ИсторияСообщенийEmail</InformationRegister>
+			<InformationRegister>мз_ИсторияСтатусовЗадач</InformationRegister>
 			<InformationRegister>мз_НастройкиПользователей</InformationRegister>
 			<InformationRegister>НазначениеДополнительныхОбработок</InformationRegister>
 			<InformationRegister>НаличиеФайлов</InformationRegister>

@@ -92,7 +92,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЗадачиПрисоединенныеФайлы</name>
+		<name>Catalog.мз_ЗадачиПрисоединенныеФайлы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

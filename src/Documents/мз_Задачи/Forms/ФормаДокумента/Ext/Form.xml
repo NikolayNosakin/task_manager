@@ -29,6 +29,11 @@
 						<CommandName>Form.Command.ОтменитьЗадачу</CommandName>
 						<ExtendedTooltip name="ФормаОтменитьЗадачуРасширеннаяПодсказка" id="199"/>
 					</Button>
+					<Button name="ФормаОтложитьЗадачу" id="202">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОтложитьЗадачу</CommandName>
+						<ExtendedTooltip name="ФормаОтложитьЗадачуРасширеннаяПодсказка" id="203"/>
+					</Button>
 					<Button name="ФормаСледующийСтатус" id="196">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СледующийСтатус</CommandName>
@@ -453,6 +458,7 @@
 			<ChildItems>
 				<InputField name="Статус" id="111">
 					<DataPath>Объект.Статус</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
 					<ClearButton>false</ClearButton>
 					<SpinButton>false</SpinButton>
 					<OpenButton>false</OpenButton>
@@ -576,6 +582,43 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ПричинаСменыСтатуса" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причина смены статуса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Подзадачи</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Подзадачи.Выполнена</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="false" underline="false" strikeout="true" kind="WindowsFont"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
 		<Command name="ОтправитьСообщение" id="1">
@@ -646,5 +689,37 @@
 			</Picture>
 			<Action>ОтменитьЗадачу</Action>
 		</Command>
+		<Command name="ОтложитьЗадачу" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отложить задачу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отложить задачу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.мз_ПеренестиВремя</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОтложитьЗадачу</Action>
+		</Command>
 	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>InformationRegister.мз_ИсторияПереписки.StandardCommand.OpenByValue.Задача</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>
