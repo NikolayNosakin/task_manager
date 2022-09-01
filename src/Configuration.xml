@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.1.1</Version>
+			<Version>1.1.1.2</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/task_manager/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -665,14 +665,15 @@
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>мз_МусорныйБак</CommonPicture>
 			<CommonPicture>мз_ПеренестиВремя</CommonPicture>
-			<SessionParameter>ВнешнийАдресИБ</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
-			<SessionParameter>ВыполняетсяОбновлениеИБ</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
+			<SessionParameter>ВыполняетсяОбновлениеИБ</SessionParameter>
 			<SessionParameter>ВыполняетсяУдалениеОбъектов</SessionParameter>
 			<SessionParameter>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</SessionParameter>
 			<SessionParameter>КлючДанныхПовторногоИспользования</SessionParameter>
+			<SessionParameter>мз_ВнешнийАдресИБ</SessionParameter>
+			<SessionParameter>мз_Клиент</SessionParameter>
 			<SessionParameter>ОсновнойЯзык</SessionParameter>
 			<SessionParameter>ОтмененныеДлительныеОперации</SessionParameter>
 			<SessionParameter>ОшибкаРасхожденияВерсийПриПолученииДанных</SessionParameter>

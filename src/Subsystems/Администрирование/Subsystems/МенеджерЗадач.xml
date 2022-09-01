@@ -20,7 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мз_ОбщегоНазначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мз_СобытияФормКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мз_СтандартныеПодсистемыСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ВнешнийАдресИБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.мз_ВнешнийАдресИБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.мз_ЧтениеНСИ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.мз_ДобавлениеНСИ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.мз_СменитьСтиль</xr:Item>

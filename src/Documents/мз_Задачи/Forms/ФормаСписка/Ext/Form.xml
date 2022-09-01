@@ -11,6 +11,25 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="50"/>
 			<ChildItems>
+				<UsualGroup name="Группа2" id="59">
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="60"/>
+					<ChildItems>
+						<RadioButtonField name="ОтборПоСтатусу" id="56">
+							<DataPath>ОтборПоСтатусу</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ContextMenu name="ОтборПоСтатусуКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ОтборПоСтатусуРасширеннаяПодсказка" id="58"/>
+							<Events>
+								<Event name="OnChange">УстановитьПараметрДинамисческогоСписка</Event>
+							</Events>
+						</RadioButtonField>
+					</ChildItems>
+				</UsualGroup>
 				<InputField name="Клиент" id="43">
 					<DataPath>Клиент</DataPath>
 					<DropListButton>false</DropListButton>
@@ -205,10 +224,21 @@
 			КОГДА &amp;МоиЗадачи
 				ТОГДА Задачи.Постановщик = &amp;Постановщик
 			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;Статус = ЗНАЧЕНИЕ(Справочник.мз_СтатусыЗадач.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ Задачи.Статус = &amp;Статус
 		КОНЕЦ</QueryText>
 				<MainTable>Document.мз_Задачи</MainTable>
 				<ListSettings>
 					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:userSettingID>4fa13640-aad7-47b3-adf1-ed9ada6aedbf</dcsset:userSettingID>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
@@ -277,6 +307,11 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.мз_ФизическиеЛица</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборПоСтатусу" id="5">
+			<Type>
+				<v8:Type>cfg:CatalogRef.мз_СтатусыЗадач</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
