@@ -30,7 +30,7 @@
 						</RadioButtonField>
 					</ChildItems>
 				</UsualGroup>
-				<InputField name="Клиент" id="43">
+				<InputField name="ОтборКлиент" id="43">
 					<DataPath>Клиент</DataPath>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
@@ -39,8 +39,8 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>false</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="44"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="45"/>
+					<ContextMenu name="ОтборКлиентКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ОтборКлиентРасширеннаяПодсказка" id="45"/>
 					<Events>
 						<Event name="OnChange">УстановитьПараметрДинамисческогоСписка</Event>
 					</Events>
@@ -123,6 +123,15 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<PictureField name="Важная" id="40">
+					<DataPath>Список.Важная</DataPath>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.ВосклицательныйЗнакКрасный</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ВажнаяКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ВажнаяРасширеннаяПодсказка" id="42"/>
+				</PictureField>
 				<LabelField name="Дата" id="16">
 					<DataPath>Список.Дата</DataPath>
 					<Visible>false</Visible>
@@ -171,12 +180,11 @@
 					<ContextMenu name="ПостановщикКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ПостановщикРасширеннаяПодсказка" id="39"/>
 				</LabelField>
-				<CheckBoxField name="Важная" id="40">
-					<DataPath>Список.Важная</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ВажнаяКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="ВажнаяРасширеннаяПодсказка" id="42"/>
-				</CheckBoxField>
+				<LabelField name="Клиент" id="61">
+					<DataPath>Список.Клиент</DataPath>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="63"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 		<Button name="Настройки" id="54">
