@@ -663,9 +663,9 @@
 		<Metadata name="Catalog.Файлы.ObjectModule" id="e7b0ae70-0192-456c-9dc5-e66049fa9df2.0" configVersion="6e93cd7b231d4148ba8542f36be215ba00000000"/>
 		<Metadata name="Catalog.Файлы.Template.МакетОтчета" id="67efa786-312f-4c9c-b970-0320e92069af" configVersion="53c5a885f856754496fdc5da9bc1f64200000000"/>
 		<Metadata name="Catalog.Файлы.Template.МакетОтчета.Template" id="67efa786-312f-4c9c-b970-0320e92069af.0" configVersion="d0e9815c090bd64a8d2a13e8272978d500000000"/>
-		<Metadata name="Catalog.мз_Бригады" id="62c77c46-77fe-4b52-a9da-c0f5d0f70f16" configVersion="9516a8ae25b4cd43bd483e731a56e1da00000000"/>
-		<Metadata name="Catalog.мз_ВидыЗадач" id="6fecbf55-d6be-4239-923b-82e4029d2f1b" configVersion="cf2559c617c733468bbb41544c04c05500000000"/>
-		<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы" id="225da1ed-3bc6-44a8-bcfb-4a77535eb2de" configVersion="e9f1a13be974414e9a48e03a8793675e00000000">
+		<Metadata name="Catalog.мз_Бригады" id="62c77c46-77fe-4b52-a9da-c0f5d0f70f16" configVersion="6c2f65cfd9bc2f40a40a9312035e116f00000000"/>
+		<Metadata name="Catalog.мз_ВидыЗадач" id="6fecbf55-d6be-4239-923b-82e4029d2f1b" configVersion="904a12208d116244a398b6341bb5d0e300000000"/>
+		<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы" id="225da1ed-3bc6-44a8-bcfb-4a77535eb2de" configVersion="23cbde4b445c764090d633bf816e9bd600000000">
 			<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи" id="09a085e2-d6ae-45e7-9a78-291b962f7dd1"/>
 			<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.Attribute.Зашифрован" id="0b4b765d-11c2-4d33-8e38-74545da31e86"/>
 			<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.КомуВыданСертификат" id="0dfd3515-2a54-49c4-95b8-efebca495903"/>
@@ -704,16 +704,16 @@
 		</Metadata>
 		<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.ManagerModule" id="225da1ed-3bc6-44a8-bcfb-4a77535eb2de.3" configVersion="236def5a3d62424ba219763fe2114a9500000000"/>
 		<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.ObjectModule" id="225da1ed-3bc6-44a8-bcfb-4a77535eb2de.0" configVersion="39918476df64cb49a9ef949e50ea35fa00000000"/>
-		<Metadata name="Catalog.мз_Клиенты" id="7b39e095-25bb-4e54-a031-66d21c3422a9" configVersion="9a0ddfcd3acd464a80704166a3d56f1b00000000"/>
-		<Metadata name="Catalog.мз_Проекты" id="7f09ea6f-38e8-47b4-ab09-f579281b902b" configVersion="2156badbc60b214c8c18197b79d4af5800000000"/>
-		<Metadata name="Catalog.мз_СтатусыЗадач" id="0e65e90c-646a-4f21-b369-ac1c3097a499" configVersion="83eeb2e5cb9a69449791ecf34545830400000000">
+		<Metadata name="Catalog.мз_Клиенты" id="7b39e095-25bb-4e54-a031-66d21c3422a9" configVersion="fcd4a9a34859264abd7aaacd5c3bb23900000000"/>
+		<Metadata name="Catalog.мз_Проекты" id="7f09ea6f-38e8-47b4-ab09-f579281b902b" configVersion="c627ae7e921c204fbbe24e1ef95c74fc00000000"/>
+		<Metadata name="Catalog.мз_СтатусыЗадач" id="0e65e90c-646a-4f21-b369-ac1c3097a499" configVersion="96e90f811fa65646bd6e7bc5c32d883600000000">
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.СпрашиватьПричинуИзменения" id="7f0321e9-f80a-4c05-a58f-2ca730b342fa"/>
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.ИндексСтатуса" id="bcad9aa6-2d16-4604-bf1f-e4d629934e94"/>
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.ОтображатьВОтборе" id="e2ae4f40-ffc4-4670-aa42-149e795347df"/>
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.ВидСтатуса" id="f673eeb3-7c10-4f1b-88ec-33be54c666bf"/>
 		</Metadata>
 		<Metadata name="Catalog.мз_СтатусыЗадач.Predefined" id="0e65e90c-646a-4f21-b369-ac1c3097a499.1c" configVersion="57f4f257fdd7554fada07951357d2f8900000000"/>
-		<Metadata name="Catalog.мз_ФизическиеЛица" id="1941a9fd-3568-4db1-bdb4-6e61f82a70d4" configVersion="c00b453511dc8d478b20d9632cf8de8000000000">
+		<Metadata name="Catalog.мз_ФизическиеЛица" id="1941a9fd-3568-4db1-bdb4-6e61f82a70d4" configVersion="423086933abd5f48bc345f90c9e7903b00000000">
 			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Телефон" id="406ce15c-c36f-4431-8386-57b6275c6518"/>
 			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Клиент" id="951e69e8-f93f-4e73-85de-2dda8ca480b0"/>
 			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Исполнитель" id="da5aab6e-3c5f-4975-9d30-28c07878d490"/>
@@ -3396,8 +3396,8 @@
 		<Metadata name="Document.мз_Задачи.Form.ФормаВыбора.Form" id="6799e725-2458-4e81-9dfa-029ad982beb0.0" configVersion="439cfb63ddafb04db4df6ed3e621ae8c00000000"/>
 		<Metadata name="Document.мз_Задачи.Form.ФормаДокумента" id="57a3e6e4-6cf9-43d5-91e1-c8f35f2614d3" configVersion="5f9f7f5126c2fb46a9a9d22bf0193cb400000000"/>
 		<Metadata name="Document.мз_Задачи.Form.ФормаДокумента.Form" id="57a3e6e4-6cf9-43d5-91e1-c8f35f2614d3.0" configVersion="8f55ce8b1e7acb408cefa7c502826f2500000000"/>
-		<Metadata name="Document.мз_Задачи.Form.ФормаСписка" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3" configVersion="1478cdee0a81f349a7354015a13040d200000000"/>
-		<Metadata name="Document.мз_Задачи.Form.ФормаСписка.Form" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3.0" configVersion="adaec393b2fa0e48a219aa8428f7df7000000000"/>
+		<Metadata name="Document.мз_Задачи.Form.ФормаСписка" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3" configVersion="260b2921eaeff34abae9eb7f57bab83400000000"/>
+		<Metadata name="Document.мз_Задачи.Form.ФормаСписка.Form" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3.0" configVersion="665dfb13b19ed04c992255b077af26e500000000"/>
 		<Metadata name="Document.мз_Задачи.ManagerModule" id="89d28a0c-df53-4cb4-b69a-2270bf307762.2" configVersion="f63f71612742c74195a1a5c784d658f600000000"/>
 		<Metadata name="Document.мз_Задачи.ObjectModule" id="89d28a0c-df53-4cb4-b69a-2270bf307762.0" configVersion="d85e6b115bf1a5499ddbb37100b0f47500000000"/>
 		<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент" id="98aa8a80-29fa-4a54-8d0e-90d413d63da1" configVersion="4d4dcbc992afaa46805a762e5913059500000000">
