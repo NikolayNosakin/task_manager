@@ -21,14 +21,12 @@
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>10</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
+				<v8:Type>cfg:DocumentRef.мз_Задачи</v8:Type>
 			</Type>
 			<UseStandardCommands>false</UseStandardCommands>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.мз_Задачи.Attribute.Надзадача</xr:Item>
+			</Content>
 			<DefaultForm/>
 			<AuxiliaryForm/>
 			<ListPresentation/>

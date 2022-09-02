@@ -17,7 +17,6 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.мз_Задачи</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">53c14545-84bc-4064-80ac-21be2082b871</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_ИсторияПереписки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_ИсторияСообщенийEmail</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_ЗадачиПрисоединенныеФайлы</xr:Item>
@@ -25,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.мз_ТипСообщенияEmail</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_ВидыЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_ИсторияСтатусовЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.мз_СтатистикаПоЗадачам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

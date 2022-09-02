@@ -71,6 +71,16 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<PictureField name="Важная" id="19">
+					<DataPath>Список.Важная</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.ВосклицательныйЗнакКрасный</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ВажнаяКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ВажнаяРасширеннаяПодсказка" id="21"/>
+				</PictureField>
 				<LabelField name="Номер" id="16">
 					<DataPath>Список.Number</DataPath>
 					<DefaultItem>true</DefaultItem>
@@ -107,13 +117,11 @@
 					<ContextMenu name="ПроектКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="33"/>
 				</LabelField>
-				<CheckBoxField name="Важная" id="19">
-					<DataPath>Список.Важная</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ВажнаяКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ВажнаяРасширеннаяПодсказка" id="21"/>
-				</CheckBoxField>
+				<LabelField name="Исполнитель" id="37">
+					<DataPath>Список.Исполнитель</DataPath>
+					<ContextMenu name="ИсполнительКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="39"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
