@@ -510,6 +510,9 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>false</OpenButton>
 					<CreateButton>false</CreateButton>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChooseType>false</ChooseType>
+					<TextEdit>false</TextEdit>
 					<ContextMenu name="СтатусКонтекстноеМеню" id="112"/>
 					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="113"/>
 				</InputField>

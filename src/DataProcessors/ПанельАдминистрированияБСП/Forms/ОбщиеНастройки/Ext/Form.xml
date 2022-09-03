@@ -100,7 +100,7 @@
 					<ExtendedTooltip name="РегиональныеНастройкиРасширеннаяПодсказка" id="2095"/>
 				</Button>
 				<InputField name="ВнешнийАдресИБ" id="2151">
-					<DataPath>НаборКонстант.ВнешнийАдресИБ</DataPath>
+					<DataPath>НаборКонстант.мз_ВнешнийАдресИБ</DataPath>
 					<ContextMenu name="ВнешнийАдресИБКонтекстноеМеню" id="2152"/>
 					<ExtendedTooltip name="ВнешнийАдресИБРасширеннаяПодсказка" id="2153"/>
 					<Events>

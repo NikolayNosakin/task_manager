@@ -2,21 +2,21 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Constant uuid="f148e6f9-feac-4516-94bc-989250376346">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.ВнешнийАдресИБ" category="Manager">
+			<xr:GeneratedType name="ConstantManager.мз_ВнешнийАдресИБ" category="Manager">
 				<xr:TypeId>d9adeb34-5338-4616-a287-e33544e8ebc4</xr:TypeId>
 				<xr:ValueId>df4006f8-ccd1-42ec-96b8-827362a14a58</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.ВнешнийАдресИБ" category="ValueManager">
+			<xr:GeneratedType name="ConstantValueManager.мз_ВнешнийАдресИБ" category="ValueManager">
 				<xr:TypeId>46bab819-4a70-4171-ad28-d0d25adbf0b0</xr:TypeId>
 				<xr:ValueId>902e10f8-97d7-40e1-a138-23a6283e8db3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.ВнешнийАдресИБ" category="ValueKey">
+			<xr:GeneratedType name="ConstantValueKey.мз_ВнешнийАдресИБ" category="ValueKey">
 				<xr:TypeId>fd4bc19d-8afd-42d2-901d-afda88279968</xr:TypeId>
 				<xr:ValueId>0207e184-49e5-4a86-97d8-44f0038a8efa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВнешнийАдресИБ</Name>
+			<Name>мз_ВнешнийАдресИБ</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

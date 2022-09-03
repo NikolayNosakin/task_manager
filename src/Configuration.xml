@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.1.4</Version>
+			<Version>1.1.1.5</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/task_manager/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -205,7 +205,7 @@
 			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
 			<MobileApplicationURLs/>
-			<MainClientApplicationWindowMode>Workplace</MainClientApplicationWindowMode>
+			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -242,7 +242,6 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
-			<Subsystem>НСИ</Subsystem>
 			<Subsystem>мз_Задачи</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
@@ -665,6 +664,8 @@
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>мз_МусорныйБак</CommonPicture>
 			<CommonPicture>мз_ПеренестиВремя</CommonPicture>
+			<CommonPicture>мз_Задачи</CommonPicture>
+			<CommonPicture>мз_РабочийСтол</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
@@ -1158,7 +1159,6 @@
 			<Constant>АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВИнтернете</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВЛокальнойСети</Constant>
-			<Constant>ВнешнийАдресИБ</Constant>
 			<Constant>ГлавныйУзел</Constant>
 			<Constant>ДанныеДляОтложенногоОбновления</Constant>
 			<Constant>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</Constant>
@@ -1190,6 +1190,10 @@
 			<Constant>КоличествоЭлементовВТранзакцииЗагрузкиДанных</Constant>
 			<Constant>МаксимальныйРазмерФайла</Constant>
 			<Constant>МаксимальныйРазмерФайлаОбластиДанных</Constant>
+			<Constant>мз_ВнешнийАдресИБ</Constant>
+			<Constant>мз_ИспользоватьБригадыВместоИсполнителей</Constant>
+			<Constant>мз_ИспользоватьВидыЗадач</Constant>
+			<Constant>мз_ИспользоватьСложныеСтатусы</Constant>
 			<Constant>НастройкаПодчиненногоУзлаРИБЗавершена</Constant>
 			<Constant>НастройкиВходаПользователей</Constant>
 			<Constant>НастройкиКолонтитулов</Constant>
@@ -1225,9 +1229,6 @@
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<Constant>мз_ИспользоватьСложныеСтатусы</Constant>
-			<Constant>мз_ИспользоватьБригадыВместоИсполнителей</Constant>
-			<Constant>мз_ИспользоватьВидыЗадач</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
@@ -1412,6 +1413,7 @@
 			<DataProcessor>ТранспортСообщенийОбменаFTP</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
+			<DataProcessor>мз_ПанельАдминистрирования</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>БлокировкиСеансовОбластейДанных</InformationRegister>

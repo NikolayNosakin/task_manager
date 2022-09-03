@@ -1359,7 +1359,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ВнешнийАдресИБ</name>
+		<name>Constant.мз_ВнешнийАдресИБ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
