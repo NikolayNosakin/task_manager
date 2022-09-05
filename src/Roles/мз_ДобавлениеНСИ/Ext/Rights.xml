@@ -272,6 +272,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.мз_ИспользоватьСложныеСтатусы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.БуферОбмена</name>
 		<right>
 			<name>Get</name>
@@ -1454,6 +1461,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.мз_СтепеньСжатияОписанияЗадачи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьГруппыПользователей</name>
 		<right>
 			<name>Read</name>
@@ -1600,6 +1614,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.мз_ИспользоватьБригадыВместоИсполнителей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.КоличествоПотоковОбновленияИнформационнойБазы</name>
 		<right>
 			<name>Read</name>
@@ -1717,6 +1738,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.мз_ИспользоватьВидыЗадач</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.КоличествоЭлементовВТранзакцииЗагрузкиДанных</name>
 		<right>
 			<name>Read</name>
@@ -1821,10 +1849,6 @@
 		<name>Constant.мз_ВнешнийАдресИБ</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

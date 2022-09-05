@@ -45,6 +45,18 @@
 				<Event name="OnChange">КонстантаПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
+		<InputField name="мз_СтепеньСжатияОписанияЗадачи" id="13">
+			<DataPath>НаборКонстант.мз_СтепеньСжатияОписанияЗадачи</DataPath>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>0 - без сжатия, 1 - минимальное сжатие, 9 - максимальное сжатие.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<ContextMenu name="мз_СтепеньСжатияОписанияЗадачиКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="мз_СтепеньСжатияОписанияЗадачиРасширеннаяПодсказка" id="15"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="НаборКонстант" id="1">
