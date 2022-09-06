@@ -36,6 +36,12 @@
 				<Event name="OnChange">КонстантаПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
+		<CheckBoxField name="мз_ИспользоватьРолиИсполнителей" id="16">
+			<DataPath>НаборКонстант.мз_ИспользоватьРолиИсполнителей</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="мз_ИспользоватьРолиИсполнителейКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="мз_ИспользоватьРолиИсполнителейРасширеннаяПодсказка" id="18"/>
+		</CheckBoxField>
 		<CheckBoxField name="мз_ИспользоватьСложныеСтатусы" id="10">
 			<DataPath>НаборКонстант.мз_ИспользоватьСложныеСтатусы</DataPath>
 			<CheckBoxType>Auto</CheckBoxType>

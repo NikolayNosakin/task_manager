@@ -16,13 +16,26 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<CheckBoxField name="Исполнитель" id="10">
-			<DataPath>Объект.Исполнитель</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ИсполнительКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="12"/>
-		</CheckBoxField>
+		<UsualGroup name="Группа1" id="19">
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<CheckBoxField name="Исполнитель" id="10">
+					<DataPath>Объект.Исполнитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИсполнительКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="12"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЭтоКлиент" id="16">
+					<DataPath>Объект.ЭтоКлиент</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЭтоКлиентКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ЭтоКлиентРасширеннаяПодсказка" id="18"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<InputField name="Клиент" id="13">
 			<DataPath>Объект.Клиент</DataPath>
 			<EditMode>EnterOnInput</EditMode>

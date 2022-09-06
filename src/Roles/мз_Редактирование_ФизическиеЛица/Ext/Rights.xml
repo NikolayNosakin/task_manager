@@ -11452,13 +11452,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.мз_ФизическиеЛица.Attribute.Клиент</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетовРасширений.TabularSection.Представления.Attribute.Описание</name>
 		<right>
 			<name>View</name>

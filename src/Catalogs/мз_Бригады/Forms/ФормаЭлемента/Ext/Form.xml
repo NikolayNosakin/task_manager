@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Бригадир" id="7">
+			<DataPath>Объект.Бригадир</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="БригадирКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="БригадирРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="СотрудникиБригады" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СотрудникиБригады</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СотрудникиБригадыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="СотрудникиБригадыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="СотрудникиБригадыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="СотрудникиБригадыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>СотрудникиБригады</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СотрудникиБригадыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СотрудникиБригадыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СотрудникиБригадыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>СотрудникиБригады</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СотрудникиБригадыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СотрудникиБригадыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СотрудникиБригадыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>СотрудникиБригады</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СотрудникиБригадыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СотрудникиБригадыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СотрудникиБригадыНомерСтроки" id="23">
+					<DataPath>Объект.СотрудникиБригады.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СотрудникиБригадыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СотрудникиБригадыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="СотрудникиБригадыСотрудник" id="26">
+					<DataPath>Объект.СотрудникиБригады.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СотрудникиБригадыСотрудникКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СотрудникиБригадыСотрудникРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.мз_Бригады</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

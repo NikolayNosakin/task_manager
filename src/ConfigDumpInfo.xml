@@ -663,8 +663,22 @@
 		<Metadata name="Catalog.Файлы.ObjectModule" id="e7b0ae70-0192-456c-9dc5-e66049fa9df2.0" configVersion="6e93cd7b231d4148ba8542f36be215ba00000000"/>
 		<Metadata name="Catalog.Файлы.Template.МакетОтчета" id="67efa786-312f-4c9c-b970-0320e92069af" configVersion="53c5a885f856754496fdc5da9bc1f64200000000"/>
 		<Metadata name="Catalog.Файлы.Template.МакетОтчета.Template" id="67efa786-312f-4c9c-b970-0320e92069af.0" configVersion="d0e9815c090bd64a8d2a13e8272978d500000000"/>
-		<Metadata name="Catalog.мз_Бригады" id="62c77c46-77fe-4b52-a9da-c0f5d0f70f16" configVersion="6c2f65cfd9bc2f40a40a9312035e116f00000000"/>
-		<Metadata name="Catalog.мз_ВидыЗадач" id="6fecbf55-d6be-4239-923b-82e4029d2f1b" configVersion="904a12208d116244a398b6341bb5d0e300000000"/>
+		<Metadata name="Catalog.мз_Бригады" id="62c77c46-77fe-4b52-a9da-c0f5d0f70f16" configVersion="bd3502d6b0ba3944aefda923a17e78c100000000">
+			<Metadata name="Catalog.мз_Бригады.Attribute.Бригадир" id="0311f913-d74d-4f11-bc5b-93ffb3e2ed30"/>
+			<Metadata name="Catalog.мз_Бригады.TabularSection.СотрудникиБригады.Attribute.Сотрудник" id="23b093ea-d5a7-4751-a49c-848bbd2bfad6"/>
+			<Metadata name="Catalog.мз_Бригады.TabularSection.СотрудникиБригады" id="ff4bf29e-3083-4e33-b2e5-9feef3ae5fbc"/>
+		</Metadata>
+		<Metadata name="Catalog.мз_Бригады.Form.ФормаСписка" id="fede07e8-6ede-44e2-a3c9-c004e5d1352d" configVersion="dd8c9e960cbe3a44b7a51d459e0d1e5400000000"/>
+		<Metadata name="Catalog.мз_Бригады.Form.ФормаСписка.Form" id="fede07e8-6ede-44e2-a3c9-c004e5d1352d.0" configVersion="3896956da262a44e9eb2c4891c4c1c4900000000"/>
+		<Metadata name="Catalog.мз_Бригады.Form.ФормаЭлемента" id="57fcca49-4296-4469-9739-48a3e6d534df" configVersion="8af41269c15cd446b5d8b223f8831ecd00000000"/>
+		<Metadata name="Catalog.мз_Бригады.Form.ФормаЭлемента.Form" id="57fcca49-4296-4469-9739-48a3e6d534df.0" configVersion="a84c9eddc6efb7458e5acf38b4cd358c00000000"/>
+		<Metadata name="Catalog.мз_ВидыЗадач" id="6fecbf55-d6be-4239-923b-82e4029d2f1b" configVersion="e26bc7e365852147b6a27c7380e5eaca00000000">
+			<Metadata name="Catalog.мз_ВидыЗадач.TabularSection.ИсполнителиИСтатусы.Attribute.ДоступныеРеквизиты" id="10574c8d-6bea-493b-b260-304d188f1086"/>
+			<Metadata name="Catalog.мз_ВидыЗадач.TabularSection.ИсполнителиИСтатусы" id="706e80f8-37e3-4d60-865c-974827d0e136"/>
+			<Metadata name="Catalog.мз_ВидыЗадач.TabularSection.ИсполнителиИСтатусы.Attribute.Статус" id="89815cd7-3076-4c0a-98b3-08e3c47eaee7"/>
+			<Metadata name="Catalog.мз_ВидыЗадач.TabularSection.ИсполнителиИСтатусы.Attribute.ДоступныеСтатусы" id="aa2f97ea-9beb-4bc4-a5da-2796c02728d4"/>
+			<Metadata name="Catalog.мз_ВидыЗадач.TabularSection.ИсполнителиИСтатусы.Attribute.Роль" id="f55aa550-b5b6-45f4-836a-6cbc63510e3f"/>
+		</Metadata>
 		<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы" id="225da1ed-3bc6-44a8-bcfb-4a77535eb2de" configVersion="23cbde4b445c764090d633bf816e9bd600000000">
 			<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи" id="09a085e2-d6ae-45e7-9a78-291b962f7dd1"/>
 			<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.Attribute.Зашифрован" id="0b4b765d-11c2-4d33-8e38-74545da31e86"/>
@@ -706,6 +720,9 @@
 		<Metadata name="Catalog.мз_ЗадачиПрисоединенныеФайлы.ObjectModule" id="225da1ed-3bc6-44a8-bcfb-4a77535eb2de.0" configVersion="39918476df64cb49a9ef949e50ea35fa00000000"/>
 		<Metadata name="Catalog.мз_Клиенты" id="7b39e095-25bb-4e54-a031-66d21c3422a9" configVersion="fcd4a9a34859264abd7aaacd5c3bb23900000000"/>
 		<Metadata name="Catalog.мз_Проекты" id="7f09ea6f-38e8-47b4-ab09-f579281b902b" configVersion="c627ae7e921c204fbbe24e1ef95c74fc00000000"/>
+		<Metadata name="Catalog.мз_РолиИсполнителей" id="d0dc7bd2-390e-4ce6-b395-9c179848f428" configVersion="2f6da9a1b833244e8e83a5f269d57f2900000000">
+			<Metadata name="Catalog.мз_РолиИсполнителей.Attribute.Описание" id="4117f375-f46e-4fd9-be47-f9c9c0bc3bbe"/>
+		</Metadata>
 		<Metadata name="Catalog.мз_СтатусыЗадач" id="0e65e90c-646a-4f21-b369-ac1c3097a499" configVersion="96e90f811fa65646bd6e7bc5c32d883600000000">
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.СпрашиватьПричинуИзменения" id="7f0321e9-f80a-4c05-a58f-2ca730b342fa"/>
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.ИндексСтатуса" id="bcad9aa6-2d16-4604-bf1f-e4d629934e94"/>
@@ -713,9 +730,10 @@
 			<Metadata name="Catalog.мз_СтатусыЗадач.Attribute.ВидСтатуса" id="f673eeb3-7c10-4f1b-88ec-33be54c666bf"/>
 		</Metadata>
 		<Metadata name="Catalog.мз_СтатусыЗадач.Predefined" id="0e65e90c-646a-4f21-b369-ac1c3097a499.1c" configVersion="57f4f257fdd7554fada07951357d2f8900000000"/>
-		<Metadata name="Catalog.мз_ФизическиеЛица" id="1941a9fd-3568-4db1-bdb4-6e61f82a70d4" configVersion="423086933abd5f48bc345f90c9e7903b00000000">
+		<Metadata name="Catalog.мз_ФизическиеЛица" id="1941a9fd-3568-4db1-bdb4-6e61f82a70d4" configVersion="ba0ccdb0a6473e41914e2bf24fd88c2700000000">
 			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Телефон" id="406ce15c-c36f-4431-8386-57b6275c6518"/>
-			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Клиент" id="951e69e8-f93f-4e73-85de-2dda8ca480b0"/>
+			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Клиент" id="9c8f349e-bc6b-43a8-aeef-2edbccfd4983"/>
+			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.ЭтоКлиент" id="c2c288e9-98c7-4d29-ae4f-909d4740d051"/>
 			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Исполнитель" id="da5aab6e-3c5f-4975-9d30-28c07878d490"/>
 			<Metadata name="Catalog.мз_ФизическиеЛица.Attribute.Email" id="e62fb19b-031f-4efb-80e2-b07125b40b55"/>
 		</Metadata>
@@ -723,8 +741,8 @@
 		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаВыбора.Form" id="7f0f30f7-75b9-4d4f-b34e-69211fefbfe7.0" configVersion="959a9d06043e994aa0d5f364b4ec3cca00000000"/>
 		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаСписка" id="9b536791-b06b-4928-a990-356a6cb7b138" configVersion="71bc0f554dbd594f92a5e982ebcb45ff00000000"/>
 		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаСписка.Form" id="9b536791-b06b-4928-a990-356a6cb7b138.0" configVersion="d7166310cfe0cc47b3100663f40f328800000000"/>
-		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаЭлемента" id="f960e34c-a8b9-4211-80cb-fe847f35766d" configVersion="61c58334bf603f4fa6851258cd8d54ab00000000"/>
-		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаЭлемента.Form" id="f960e34c-a8b9-4211-80cb-fe847f35766d.0" configVersion="ab0d1891ae446041981dd92d171cf88300000000"/>
+		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаЭлемента" id="f960e34c-a8b9-4211-80cb-fe847f35766d" configVersion="ee59f04774acff4c8df8c9886b6ed0ef00000000"/>
+		<Metadata name="Catalog.мз_ФизическиеЛица.Form.ФормаЭлемента.Form" id="f960e34c-a8b9-4211-80cb-fe847f35766d.0" configVersion="1d5b91348d679f4cb71718ca3f80568000000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.мз_ПраваИНастройки" id="dfdcf01c-cfa2-491d-8b17-0b578f20c1c1" configVersion="c104d3917ffbd443aa4eb56c4345b25c00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.мз_ПраваИНастройки.Predefined" id="dfdcf01c-cfa2-491d-8b17-0b578f20c1c1.7" configVersion="512bb953b492ff409bb760fe5cd870de00000000"/>
 		<Metadata name="CommandGroup.Информация" id="31ee6430-b65d-42fa-859b-c4f1c40686ae" configVersion="a8d895f478d8e44e883d21f881f84c6a00000000"/>
@@ -1147,8 +1165,8 @@
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиент.Module" id="ac5f945e-2d03-44fb-a8cf-5d786194cefd.0" configVersion="0a1f85656544a2479e72a87754af50d800000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый" id="698ec00f-bf75-420e-81ab-a98808daf3f7" configVersion="24af33eb152e574a9ccfb7b418b46e3d00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый.Module" id="698ec00f-bf75-420e-81ab-a98808daf3f7.0" configVersion="ad977ecc87e96a4aba735c9427b036a400000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМенеджерЗадач" id="4294e9e4-7513-476d-829c-fd05736a41ea" configVersion="c84768375dd65a4db072f3e512051b7d00000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМенеджерЗадач.Module" id="4294e9e4-7513-476d-829c-fd05736a41ea.0" configVersion="a13379579507f24ebb7ceb884c564c8f00000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМенеджерЗадач" id="4294e9e4-7513-476d-829c-fd05736a41ea" configVersion="4803144a61799649b8a6bf27612caeb000000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМенеджерЗадач.Module" id="4294e9e4-7513-476d-829c-fd05736a41ea.0" configVersion="46529e0cf3c4254a9b4f9a72c3ba9bcf00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыПереопределяемый" id="f441907c-d02e-431e-baf4-1854e48a1f50" configVersion="05996bd2e82fc94e81a80ba481e148ba00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыПереопределяемый.Module" id="f441907c-d02e-431e-baf4-1854e48a1f50.0" configVersion="ebd806c8caddef40a17daed05dd61dd600000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебный" id="4ad722ca-10fc-4a83-91c9-ef0012685f89" configVersion="45f538fd2a758f4ea46bc2534a96c60800000000"/>
@@ -1419,8 +1437,8 @@
 		<Metadata name="CommonModule.ФизическиеЛицаКлиентСервер.Module" id="e660c8bf-af5f-4525-a56e-68925d2b96fa.0" configVersion="025225c4b043254ead93b242bc94d95400000000"/>
 		<Metadata name="CommonModule.мз_ОбщегоНазначения" id="a7cbe8e1-dcd7-43b2-8d02-da7aebf5bda5" configVersion="dd4d4f5b1ccc844e9110faca373ee0fe00000000"/>
 		<Metadata name="CommonModule.мз_ОбщегоНазначения.Module" id="a7cbe8e1-dcd7-43b2-8d02-da7aebf5bda5.0" configVersion="7be3538f17b28e4391180a1084c7235900000000"/>
-		<Metadata name="CommonModule.мз_Служебный" id="ca4bbb2b-beed-4bfd-ae7b-61244d2be772" configVersion="71dad4eacbde2e47bdafd279e53977cd00000000"/>
-		<Metadata name="CommonModule.мз_Служебный.Module" id="ca4bbb2b-beed-4bfd-ae7b-61244d2be772.0" configVersion="1765dfc54ad39f419201a88cc2c552a500000000"/>
+		<Metadata name="CommonModule.мз_Служебный" id="ca4bbb2b-beed-4bfd-ae7b-61244d2be772" configVersion="b6c0968fb3f6e041b7a28866a89977d500000000"/>
+		<Metadata name="CommonModule.мз_Служебный.Module" id="ca4bbb2b-beed-4bfd-ae7b-61244d2be772.0" configVersion="ece33d76f0eeed4fb7ee2084339b1e5700000000"/>
 		<Metadata name="CommonModule.мз_СобытияФормКлиент" id="e64128e0-7ee8-4063-87f8-d1678c650f5e" configVersion="8e08cffb8dbe7d4dad0d08fbe4eec25500000000"/>
 		<Metadata name="CommonModule.мз_СобытияФормКлиент.Module" id="e64128e0-7ee8-4063-87f8-d1678c650f5e.0" configVersion="25242800ec8bde47b75c5096975a4bc800000000"/>
 		<Metadata name="CommonModule.мз_СтандартныеПодсистемыСервер" id="b4b006dc-fa43-4637-901e-bbb01b060916" configVersion="cc2dd6ff8d7d574cbccfd9fd9677270500000000"/>
@@ -2194,7 +2212,7 @@
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="b825409bd1a2544b999bb3c3ef5eb87800000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="34f79947ff956044b8e71e26c371f21000000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="63f92787d308cd44a8da55bbc34b754300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="60df22cf-c028-46e6-94e1-dec552293f9c" configVersion="d0872c8ccc8b654e885abc0f8ca1d2d200000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="60df22cf-c028-46e6-94e1-dec552293f9c" configVersion="14b992e82914a443a65ad0adc44bcb9a00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="6e78c34e-5383-4618-8fb5-04dd3965f267.b" configVersion="19f85f01f331064a96ebf51562769ad700000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="6e78c34e-5383-4618-8fb5-04dd3965f267.a" configVersion="9809a9c39ed19c4dbaf7595e1925d33100000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="6e78c34e-5383-4618-8fb5-04dd3965f267.5" configVersion="fce02339c06dd6489d4d94c78aa81ab800000000"/>
@@ -2303,6 +2321,7 @@
 		<Metadata name="Constant.мз_ВнешнийАдресИБ" id="f148e6f9-feac-4516-94bc-989250376346" configVersion="9a61ac4fa7688d43827badde4d773cec00000000"/>
 		<Metadata name="Constant.мз_ИспользоватьБригадыВместоИсполнителей" id="cebfc09e-50ab-422f-b788-8bb8ecc5eb24" configVersion="93bc28140d7cc049914aba80c7c9ed9f00000000"/>
 		<Metadata name="Constant.мз_ИспользоватьВидыЗадач" id="df5156eb-e017-4320-b36f-588abb8829d8" configVersion="2f373f007a33784ba87e838206c80aa700000000"/>
+		<Metadata name="Constant.мз_ИспользоватьРолиИсполнителей" id="4820a226-7d73-4ba3-917a-bfa55e0faebf" configVersion="e44c2687e904e841bc11bb65895df8f000000000"/>
 		<Metadata name="Constant.мз_ИспользоватьСложныеСтатусы" id="1cc22b39-9e8e-4ddc-b578-9c0c18c33b30" configVersion="6ee93e6246152a48b60d5f5ccde742de00000000"/>
 		<Metadata name="Constant.мз_СтепеньСжатияОписанияЗадачи" id="ac1145bb-b5cd-423d-932a-2c43ffb9d2ce" configVersion="e02556eaf2b81e46b30b1d5b58c4a9fc00000000"/>
 		<Metadata name="DataProcessor.АвтоматическоеИзвлечениеТекстов" id="3326bbcb-b277-44db-a252-2448119e8146" configVersion="6a6d22365f06354db5d2925f9e6aea0800000000">
@@ -3362,8 +3381,8 @@
 			<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Command.ОбщиеНастройкиДокументация" id="497964ea-3f1c-4734-a6ef-2419580004dc"/>
 		</Metadata>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Command.ОбщиеНастройкиДокументация.CommandModule" id="497964ea-3f1c-4734-a6ef-2419580004dc.2" configVersion="8f91441b1999b145b7c9bd37c0bdde1100000000"/>
-		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f" configVersion="0255636b93ad174092dec764869208dd00000000"/>
-		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач.Form" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f.0" configVersion="b0a1bc5d26bb8443909c3ce07ac6926a00000000"/>
+		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f" configVersion="ca5c8ff91b729944975215207a79b20300000000"/>
+		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач.Form" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f.0" configVersion="d5d509194a253e409fef9794b85722cb00000000"/>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач.Help" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f.1" configVersion="3232d5e9be80d742a9264f074bcb5d3a00000000"/>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.Форма" id="4b4b58a5-f6c9-471b-867d-475fa97fef22" configVersion="afe8c880425a6145855d9b2b5347f14900000000"/>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.Форма.Form" id="4b4b58a5-f6c9-471b-867d-475fa97fef22.0" configVersion="b15f09b14109c14e9c59d40fd94ba50e00000000"/>
@@ -3786,7 +3805,8 @@
 		<Metadata name="FunctionalOption.СтандартныеПодсистемыВМоделиСервиса" id="c0bb2d66-94c9-4bc6-afd5-534075e8395b" configVersion="253c30e995a05d45a593b5a8c17884ee00000000"/>
 		<Metadata name="FunctionalOption.ХранитьФайлыВТомахНаДиске" id="db7cc693-1645-4416-a9d9-5a7584cd3bbc" configVersion="d0c11cef2e6da242ae676950662471dd00000000"/>
 		<Metadata name="FunctionalOption.мз_ИспользоватьБригадыВместоИсполнителей" id="4a6e3c5c-e22c-451f-a631-9b9884d285d5" configVersion="b0c6c63903417e43b53343aa16ca073a00000000"/>
-		<Metadata name="FunctionalOption.мз_ИспользоватьВидыЗадач" id="086081d5-3fc5-4fb0-ba9e-83240d58307d" configVersion="44001795d56d9e42b45ca8e15f57d06d00000000"/>
+		<Metadata name="FunctionalOption.мз_ИспользоватьВидыЗадач" id="086081d5-3fc5-4fb0-ba9e-83240d58307d" configVersion="a69ab630b403f94cbfaa4700e6529a9600000000"/>
+		<Metadata name="FunctionalOption.мз_ИспользоватьРолиИсполнителей" id="69ff7058-5b27-4a41-8a2e-9f63654b4061" configVersion="d7723b6f84d594408d9a78260575724800000000"/>
 		<Metadata name="FunctionalOption.мз_ИспользоватьСложныеСтатусы" id="ecedc6ed-437a-4b2f-9c57-9d7b01828061" configVersion="e8a810ec166cf4489e96dc1d8520f16b00000000"/>
 		<Metadata name="FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения" id="c849fb09-7833-49c8-9461-98426dc6c0af" configVersion="0099d8fe00f3c14694c45c2a5a7951a900000000"/>
 		<Metadata name="FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы" id="6c58fc3a-37f8-44b7-b076-2c10ce09b554" configVersion="f9763aa6449185428cb2ab6850f6c6f300000000"/>
@@ -4549,6 +4569,10 @@
 		<Metadata name="InformationRegister.мз_НастройкиПользователей.Form.ФормаНастроек.Form" id="cb2c257c-3ac4-4dae-b0c9-6a5c6ffbfd1e.0" configVersion="98b077f835f98f47a71c881d7d3dc9e200000000"/>
 		<Metadata name="InformationRegister.мз_НастройкиПользователей.Form.ФормаСписка" id="252387e8-8363-42f2-8c93-c3debfa9af8a" configVersion="abe14795cbcfbd48897db5b7d2b22a0e00000000"/>
 		<Metadata name="InformationRegister.мз_НастройкиПользователей.Form.ФормаСписка.Form" id="252387e8-8363-42f2-8c93-c3debfa9af8a.0" configVersion="75cb5a37634b954fbc02ed7aa984bab500000000"/>
+		<Metadata name="InformationRegister.мз_РолиИИсполнители" id="c8f49266-1461-456d-9461-d5d19d5ce7dc" configVersion="76888d6d6211e545a97bfac74f6de7af00000000">
+			<Metadata name="InformationRegister.мз_РолиИИсполнители.Dimension.Исполнитель" id="e29ca249-fadf-4097-b51e-6d727090870c"/>
+			<Metadata name="InformationRegister.мз_РолиИИсполнители.Dimension.Роль" id="ef83366c-fefe-4697-8c3d-30ea1b772a80"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="5ba419cf-82e8-496e-b064-647aaa8f0b6d" configVersion="a2c9b0620b669d4c82f3529814f3175100000000"/>
 		<Metadata name="Report.АнализЖурналаРегистрации" id="bcd705ba-c9ac-4e73-94b1-7632c0f06c04" configVersion="31d33b2f98d3fe4ca842995392edd61b00000000"/>
 		<Metadata name="Report.АнализЖурналаРегистрации.Form.СведенияОРегламентномЗадании" id="fec102ea-a3f6-49b5-b4b8-6884b0654129" configVersion="8dce8178f0e6694d82b7ab4a40c841b700000000"/>
@@ -4867,7 +4891,7 @@
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="b8c4aff0-a36d-4be9-9a5e-b0873d83ff15" configVersion="bcbecc162f794041bff2de207b26838100000000"/>
 		<Metadata name="Subsystem.Администрирование" id="9233322b-dfdb-4c66-91fe-1299292d40a5" configVersion="9f680ca2249e204ab6be0554a8c7433500000000"/>
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="2c2797ade0b2fe44b874a619abeca87f00000000"/>
-		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd" configVersion="07846e88d346d444b0768c5c6b436dff00000000"/>
+		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd" configVersion="f2159fe207350b419c9b28889b4ed4ac00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач.CommandInterface" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd.1" configVersion="8968a12914e4814f90d60b770384835300000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="b39290f210295949865c1654108e7fd500000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="96dce7f0fe73a84d8448b91bd43c427d00000000"/>
@@ -4918,8 +4942,8 @@
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.РезервноеКопированиеИБ.CommandInterface" id="e5a0e7c2-6186-43a3-a1c5-1f16990602a4.1" configVersion="908092c56e4a4b4e8fccd4c16de97f4f00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.СтруктураПодчиненности" id="e39ecc8a-ce81-483d-85de-b0488c8b7749" configVersion="5ae716f480eb194ea26b0d6537d6309600000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.УдалениеПомеченныхОбъектов" id="e15c3525-3453-4b62-834e-7c69f9efea51" configVersion="2f4dbf292c687841a08bdae80510d2cc00000000"/>
-		<Metadata name="Subsystem.мз_Задачи" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4" configVersion="1ec7ec360dff1b47b3f4f2a2800073e800000000"/>
-		<Metadata name="Subsystem.мз_Задачи.CommandInterface" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4.1" configVersion="c582957dcd4d0d4ba00a6b0487f8372900000000"/>
+		<Metadata name="Subsystem.мз_Задачи" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4" configVersion="83f7b1725a005248b4d1460a9a93462900000000"/>
+		<Metadata name="Subsystem.мз_Задачи.CommandInterface" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4.1" configVersion="03ffd56705f31f4393101e631d4d38c900000000"/>
 		<Metadata name="WebService.EnterpriseDataExchange_1_0_1_1" id="cb3a5c5b-7bdc-4e12-96f1-11b1213b6853" configVersion="6bb5b495394a054789fcdedbf5847c6b00000000">
 			<Metadata name="WebService.EnterpriseDataExchange_1_0_1_1.Operation.ConfirmGettingFile.Parameter.FileID" id="0c965703-c1d0-48b7-80f9-b8d869ff98f5"/>
 			<Metadata name="WebService.EnterpriseDataExchange_1_0_1_1.Operation.PrepareDataActionResult.Parameter.ErrorMessage" id="1acf34e6-c428-4130-82f0-5160dfcc0858"/>

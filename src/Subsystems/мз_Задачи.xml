@@ -33,6 +33,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_Проекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_СтатусыЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_РолиИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_РолиИИсполнители</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.1.5</Version>
+			<Version>1.1.1.6</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/task_manager/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -1076,9 +1076,9 @@
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</FunctionalOption>
-			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыВнешнихПользователей</FunctionalOption>
+			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьДополнительныеОбработкиСозданияСвязанныхОбъектов</FunctionalOption>
 			<FunctionalOption>ИспользоватьДополнительныеОтчетыИОбработки</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаметки</FunctionalOption>
@@ -1089,6 +1089,10 @@
 			<FunctionalOption>ИспользоватьСинхронизациюФайлов</FunctionalOption>
 			<FunctionalOption>ИспользоватьУдалениеПомеченныхОбъектов</FunctionalOption>
 			<FunctionalOption>ИспользуютсяПрофилиБезопасности</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьБригадыВместоИсполнителей</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьВидыЗадач</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьРолиИсполнителей</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьСложныеСтатусы</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>ПрефиксИнформационнойБазы</FunctionalOption>
@@ -1099,9 +1103,6 @@
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
 			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
-			<FunctionalOption>мз_ИспользоватьСложныеСтатусы</FunctionalOption>
-			<FunctionalOption>мз_ИспользоватьБригадыВместоИсполнителей</FunctionalOption>
-			<FunctionalOption>мз_ИспользоватьВидыЗадач</FunctionalOption>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<DefinedType>БезопасныйРежим</DefinedType>
@@ -1202,6 +1203,7 @@
 			<Constant>мз_ВнешнийАдресИБ</Constant>
 			<Constant>мз_ИспользоватьБригадыВместоИсполнителей</Constant>
 			<Constant>мз_ИспользоватьВидыЗадач</Constant>
+			<Constant>мз_ИспользоватьРолиИсполнителей</Constant>
 			<Constant>мз_ИспользоватьСложныеСтатусы</Constant>
 			<Constant>мз_СтепеньСжатияОписанияЗадачи</Constant>
 			<Constant>НастройкаПодчиненногоУзлаРИБЗавершена</Constant>
@@ -1311,6 +1313,7 @@
 			<Catalog>мз_ЗадачиПрисоединенныеФайлы</Catalog>
 			<Catalog>мз_Клиенты</Catalog>
 			<Catalog>мз_Проекты</Catalog>
+			<Catalog>мз_РолиИсполнителей</Catalog>
 			<Catalog>мз_СтатусыЗадач</Catalog>
 			<Catalog>мз_ФизическиеЛица</Catalog>
 			<Catalog>НастройкиАвторизацииИнтернетСервисов</Catalog>
@@ -1441,6 +1444,7 @@
 			<InformationRegister>мз_ИсторияСообщенийEmail</InformationRegister>
 			<InformationRegister>мз_ИсторияСтатусовЗадач</InformationRegister>
 			<InformationRegister>мз_НастройкиПользователей</InformationRegister>
+			<InformationRegister>мз_РолиИИсполнители</InformationRegister>
 			<InformationRegister>НазначениеДополнительныхОбработок</InformationRegister>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>НапоминанияПользователя</InformationRegister>
