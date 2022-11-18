@@ -60,6 +60,15 @@
 				<Event name="OnChange">КонстантаПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
+		<CheckBoxField name="мз_ИспользоватьЛистыУчетаРабочегоВремени" id="22">
+			<DataPath>НаборКонстант.мз_ИспользоватьЛистыУчетаРабочегоВремени</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="мз_ИспользоватьЛистыУчетаРабочегоВремениКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="мз_ИспользоватьЛистыУчетаРабочегоВремениРасширеннаяПодсказка" id="24"/>
+			<Events>
+				<Event name="OnChange">КонстантаПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
 		<InputField name="мз_СтепеньСжатияОписанияЗадачи" id="13">
 			<DataPath>НаборКонстант.мз_СтепеньСжатияОписанияЗадачи</DataPath>
 			<ToolTip>

@@ -1709,7 +1709,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОписаниеВыполненнойРаботы</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОписаниеВыполненнойРаботы</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2468,7 +2468,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.НачалоРаботы</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.НачалоРаботы</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3535,7 +3535,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6120,7 +6120,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ЗатраченоЧасов</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ЗатраченоЧасов</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -10498,7 +10498,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.Attribute.Ответственный</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.Attribute.Ответственный</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11620,7 +11620,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.Задача</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.Задача</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14194,7 +14194,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.Attribute.Комментарий</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.Attribute.Комментарий</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15569,7 +15569,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -15668,7 +15668,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.StandardAttribute.Posted</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15679,7 +15679,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.StandardAttribute.Ref</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15690,7 +15690,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.StandardAttribute.DeletionMark</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15701,7 +15701,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.StandardAttribute.Date</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.StandardAttribute.Date</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15712,7 +15712,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.StandardAttribute.Number</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.StandardAttribute.Number</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15943,7 +15943,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.Attribute.ВсегоЧасов</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.Attribute.ВсегоЧасов</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16559,7 +16559,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОкончаниеРаботы</name>
+		<name>Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОкончаниеРаботы</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

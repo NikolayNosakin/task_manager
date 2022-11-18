@@ -2213,7 +2213,7 @@
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="b825409bd1a2544b999bb3c3ef5eb87800000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="34f79947ff956044b8e71e26c371f21000000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="63f92787d308cd44a8da55bbc34b754300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="60df22cf-c028-46e6-94e1-dec552293f9c" configVersion="8302ac143eaea4418c60ce8de4be6de100000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="60df22cf-c028-46e6-94e1-dec552293f9c" configVersion="458797f0b56d354eae3b4e141201a87900000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="6e78c34e-5383-4618-8fb5-04dd3965f267.b" configVersion="19f85f01f331064a96ebf51562769ad700000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="6e78c34e-5383-4618-8fb5-04dd3965f267.a" configVersion="9809a9c39ed19c4dbaf7595e1925d33100000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="6e78c34e-5383-4618-8fb5-04dd3965f267.5" configVersion="fce02339c06dd6489d4d94c78aa81ab800000000"/>
@@ -2322,6 +2322,7 @@
 		<Metadata name="Constant.мз_ВнешнийАдресИБ" id="f148e6f9-feac-4516-94bc-989250376346" configVersion="9a61ac4fa7688d43827badde4d773cec00000000"/>
 		<Metadata name="Constant.мз_ИспользоватьБригадыВместоИсполнителей" id="cebfc09e-50ab-422f-b788-8bb8ecc5eb24" configVersion="93bc28140d7cc049914aba80c7c9ed9f00000000"/>
 		<Metadata name="Constant.мз_ИспользоватьВидыЗадач" id="df5156eb-e017-4320-b36f-588abb8829d8" configVersion="2f373f007a33784ba87e838206c80aa700000000"/>
+		<Metadata name="Constant.мз_ИспользоватьЛистыУчетаРабочегоВремени" id="c363ee7a-33b8-4fe3-869d-385379e1b370" configVersion="ec55d6bc754a584ea60e8ac0401eb70200000000"/>
 		<Metadata name="Constant.мз_ИспользоватьРолиИсполнителей" id="4820a226-7d73-4ba3-917a-bfa55e0faebf" configVersion="e44c2687e904e841bc11bb65895df8f000000000"/>
 		<Metadata name="Constant.мз_ИспользоватьСложныеСтатусы" id="1cc22b39-9e8e-4ddc-b578-9c0c18c33b30" configVersion="6ee93e6246152a48b60d5f5ccde742de00000000"/>
 		<Metadata name="Constant.мз_СложныеСтатусыВВидахЗадач" id="ca75d0b6-0f37-45dd-a8ad-ba9cc5b2a52a" configVersion="f694b2dfe2864945bc7cb1d4c06814c800000000"/>
@@ -3383,8 +3384,8 @@
 			<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Command.ОбщиеНастройкиМенеджераЗадач" id="497964ea-3f1c-4734-a6ef-2419580004dc"/>
 		</Metadata>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Command.ОбщиеНастройкиМенеджераЗадач.CommandModule" id="497964ea-3f1c-4734-a6ef-2419580004dc.2" configVersion="8f91441b1999b145b7c9bd37c0bdde1100000000"/>
-		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f" configVersion="85cc14a7df21bd46afbde6126f8e128c00000000"/>
-		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач.Form" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f.0" configVersion="bd75b906c8130845a34d3831db8948b200000000"/>
+		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f" configVersion="e48015f5ade5ac42af8d17223fc37d5d00000000"/>
+		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач.Form" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f.0" configVersion="9cf783d5ccecd442ad3cfb7ec65bbced00000000"/>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.ОбщиеНастройкиМенеджераЗадач.Help" id="8ffba91c-a6ea-4058-afa9-3e38a3ace99f.1" configVersion="3232d5e9be80d742a9264f074bcb5d3a00000000"/>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.Форма" id="4b4b58a5-f6c9-471b-867d-475fa97fef22" configVersion="afe8c880425a6145855d9b2b5347f14900000000"/>
 		<Metadata name="DataProcessor.мз_ПанельАдминистрирования.Form.Форма.Form" id="4b4b58a5-f6c9-471b-867d-475fa97fef22.0" configVersion="b15f09b14109c14e9c59d40fd94ba50e00000000"/>
@@ -3442,19 +3443,19 @@
 		<Metadata name="Document.мз_Задачи.Form.ФормаСписка.Form" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3.0" configVersion="a18cb8fc0319dc42971e5a0ad3a3b9f800000000"/>
 		<Metadata name="Document.мз_Задачи.ManagerModule" id="89d28a0c-df53-4cb4-b69a-2270bf307762.2" configVersion="f63f71612742c74195a1a5c784d658f600000000"/>
 		<Metadata name="Document.мз_Задачи.ObjectModule" id="89d28a0c-df53-4cb4-b69a-2270bf307762.0" configVersion="d85e6b115bf1a5499ddbb37100b0f47500000000"/>
-		<Metadata name="Document.мз_ЛистУчетаРабочегоВремени" id="c74b79d2-1042-4af2-8405-24702f8816dd" configVersion="cfafcdcbd39a5546b0ed27036290c1d700000000">
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОписаниеВыполненнойРаботы" id="165e9618-f334-453c-b825-30541e2853ba"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.НачалоРаботы" id="22a765b2-50af-4bb5-bef8-b1ea409f9c32"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач" id="31bf9855-e853-4d70-aec4-5633a4c96ed5"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ЗатраченоЧасов" id="54101870-9687-4da4-984d-9433b8bef759"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.Attribute.Ответственный" id="89a971df-35a6-4a3f-b61a-c014a27a2e36"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.Задача" id="97299a62-c94d-4f59-a318-6c77bf466c5f"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.Attribute.Комментарий" id="b250ba0e-431e-4d1a-b033-12823f23e0d2"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.Attribute.ВсегоЧасов" id="ca6f9938-43bd-4002-bd33-6f459d2a6b20"/>
-			<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОкончаниеРаботы" id="d28cec81-3dcf-4e15-91f0-5fc5a8fbdcd2"/>
+		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени" id="c74b79d2-1042-4af2-8405-24702f8816dd" configVersion="d4a1843a247f204c9d8e45623a29d5e800000000">
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОписаниеВыполненнойРаботы" id="165e9618-f334-453c-b825-30541e2853ba"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.НачалоРаботы" id="22a765b2-50af-4bb5-bef8-b1ea409f9c32"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач" id="31bf9855-e853-4d70-aec4-5633a4c96ed5"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ЗатраченоЧасов" id="54101870-9687-4da4-984d-9433b8bef759"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Attribute.Ответственный" id="89a971df-35a6-4a3f-b61a-c014a27a2e36"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.Задача" id="97299a62-c94d-4f59-a318-6c77bf466c5f"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Attribute.Комментарий" id="b250ba0e-431e-4d1a-b033-12823f23e0d2"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Attribute.ВсегоЧасов" id="ca6f9938-43bd-4002-bd33-6f459d2a6b20"/>
+			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОкончаниеРаботы" id="d28cec81-3dcf-4e15-91f0-5fc5a8fbdcd2"/>
 		</Metadata>
-		<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.Form.ФормаДокумента" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f" configVersion="5e3bf44614a2404092a693f2c4da733c00000000"/>
-		<Metadata name="Document.мз_ЛистУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f.0" configVersion="bcb1d134212cf64598b659bbda0640ea00000000"/>
+		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f" configVersion="5e3bf44614a2404092a693f2c4da733c00000000"/>
+		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f.0" configVersion="bcb1d134212cf64598b659bbda0640ea00000000"/>
 		<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент" id="98aa8a80-29fa-4a54-8d0e-90d413d63da1" configVersion="4d4dcbc992afaa46805a762e5913059500000000">
 			<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент.EnumValue.Отключена" id="37e81463-a558-4b03-b0e4-82ac0e99c80c"/>
 			<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент.EnumValue.Используется" id="60af0c11-852e-4b45-afb7-251d75a87150"/>
@@ -3821,6 +3822,7 @@
 		<Metadata name="FunctionalOption.ХранитьФайлыВТомахНаДиске" id="db7cc693-1645-4416-a9d9-5a7584cd3bbc" configVersion="d0c11cef2e6da242ae676950662471dd00000000"/>
 		<Metadata name="FunctionalOption.мз_ИспользоватьБригадыВместоИсполнителей" id="4a6e3c5c-e22c-451f-a631-9b9884d285d5" configVersion="b0c6c63903417e43b53343aa16ca073a00000000"/>
 		<Metadata name="FunctionalOption.мз_ИспользоватьВидыЗадач" id="086081d5-3fc5-4fb0-ba9e-83240d58307d" configVersion="a69ab630b403f94cbfaa4700e6529a9600000000"/>
+		<Metadata name="FunctionalOption.мз_ИспользоватьЛистыУчетаРабочегоВремени" id="e619ff69-46d7-44b9-a70d-bbce1f2fc487" configVersion="7d3f1ccb485a004fa136c72e5bb62db600000000"/>
 		<Metadata name="FunctionalOption.мз_ИспользоватьРолиИсполнителей" id="69ff7058-5b27-4a41-8a2e-9f63654b4061" configVersion="d7723b6f84d594408d9a78260575724800000000"/>
 		<Metadata name="FunctionalOption.мз_ИспользоватьСложныеСтатусы" id="ecedc6ed-437a-4b2f-9c57-9d7b01828061" configVersion="e8a810ec166cf4489e96dc1d8520f16b00000000"/>
 		<Metadata name="FunctionalOption.мз_СложныеСтатусыВВидахЗадач" id="7158f3d4-16d6-4317-b40c-8701be1c54cb" configVersion="402dc0de2c7ff94781734b2cfe4c68c800000000"/>
@@ -4652,8 +4654,8 @@
 		<Metadata name="Report.УниверсальныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных" id="567c68fd-74c7-4b6e-9119-56ac8d78073c" configVersion="bd98ee91ca86d74a87ac9f568b10a9f900000000"/>
 		<Metadata name="Report.УниверсальныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="567c68fd-74c7-4b6e-9119-56ac8d78073c.0" configVersion="3bcdcbd4507dae4082be2effb03dbd0a00000000"/>
 		<Metadata name="Report.мз_ВремяРаботыСотрудников" id="a7d68824-1935-4a92-ae30-c5811dcb30c5" configVersion="35e2ef692a835142a2fc6c4f22d469f500000000"/>
-		<Metadata name="Report.мз_ВремяРаботыСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="030a3307-c489-4b0d-b4c5-b1e56b0414f4" configVersion="ae03e2093c90b443bfdd379b40f7167800000000"/>
-		<Metadata name="Report.мз_ВремяРаботыСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="030a3307-c489-4b0d-b4c5-b1e56b0414f4.0" configVersion="239c4926ebbd3343b0da4000c3144f1e00000000"/>
+		<Metadata name="Report.мз_ВремяРаботыСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="030a3307-c489-4b0d-b4c5-b1e56b0414f4" configVersion="3c80ebd2c648224c98d3558be00065b400000000"/>
+		<Metadata name="Report.мз_ВремяРаботыСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="030a3307-c489-4b0d-b4c5-b1e56b0414f4.0" configVersion="fe4b7142b9cb1e4382f901b81ca4ba0a00000000"/>
 		<Metadata name="Report.мз_СтатистикаПоЗадачам" id="8aa96f2d-5cdf-43fe-a80c-b311a35fa95e" configVersion="d9a8b226ce35844c8d97309db9a7e03300000000"/>
 		<Metadata name="Report.мз_СтатистикаПоЗадачам.Template.ОсновнаяСхемаКомпоновкиДанных" id="9d3ed5b7-94ef-4c9f-9ffc-8a803211e246" configVersion="07caf35e2d5f00459119bfbed1c37efb00000000"/>
 		<Metadata name="Report.мз_СтатистикаПоЗадачам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="9d3ed5b7-94ef-4c9f-9ffc-8a803211e246.0" configVersion="1b4a172cd6a68949abec60ea48e3b0ba00000000"/>
@@ -4916,8 +4918,8 @@
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="b8c4aff0-a36d-4be9-9a5e-b0873d83ff15" configVersion="bcbecc162f794041bff2de207b26838100000000"/>
 		<Metadata name="Subsystem.Администрирование" id="9233322b-dfdb-4c66-91fe-1299292d40a5" configVersion="9f680ca2249e204ab6be0554a8c7433500000000"/>
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="2c2797ade0b2fe44b874a619abeca87f00000000"/>
-		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd" configVersion="72b1a0a5ee4d2e47b1b7cc150ae5ed3100000000"/>
-		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач.CommandInterface" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd.1" configVersion="2f6bf191d283f741a34c1f13d9ff21bb00000000"/>
+		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd" configVersion="16b6d65039a0464aa160ccea7cbb3bad00000000"/>
+		<Metadata name="Subsystem.Администрирование.Subsystem.МенеджерЗадач.CommandInterface" id="1ccd55e5-0d87-497f-8c0f-8636afdb79cd.1" configVersion="95b1136fce9b2e45ab87805bb2a9d35b00000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="b39290f210295949865c1654108e7fd500000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="96dce7f0fe73a84d8448b91bd43c427d00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АнализЖурналаРегистрации" id="7d8acec9-f5a9-411e-921c-446ed0dd3332" configVersion="ad2a870991dd4a40a9363f1c6d70ae6000000000"/>
@@ -4967,8 +4969,8 @@
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.РезервноеКопированиеИБ.CommandInterface" id="e5a0e7c2-6186-43a3-a1c5-1f16990602a4.1" configVersion="908092c56e4a4b4e8fccd4c16de97f4f00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.СтруктураПодчиненности" id="e39ecc8a-ce81-483d-85de-b0488c8b7749" configVersion="5ae716f480eb194ea26b0d6537d6309600000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.УдалениеПомеченныхОбъектов" id="e15c3525-3453-4b62-834e-7c69f9efea51" configVersion="2f4dbf292c687841a08bdae80510d2cc00000000"/>
-		<Metadata name="Subsystem.мз_Задачи" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4" configVersion="d4adf843aa303441a84540cf1d8c4a6f00000000"/>
-		<Metadata name="Subsystem.мз_Задачи.CommandInterface" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4.1" configVersion="559dbb13bd177c48ae590a2c90927e4b00000000"/>
+		<Metadata name="Subsystem.мз_Задачи" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4" configVersion="7afef73e597d1d4e8b7dd67b5f94414a00000000"/>
+		<Metadata name="Subsystem.мз_Задачи.CommandInterface" id="90264028-dcb8-4423-b80c-9fdfe3ddb2f4.1" configVersion="6d594fdf134b2a4290045bbb2b1c8f5900000000"/>
 		<Metadata name="WebService.EnterpriseDataExchange_1_0_1_1" id="cb3a5c5b-7bdc-4e12-96f1-11b1213b6853" configVersion="6bb5b495394a054789fcdedbf5847c6b00000000">
 			<Metadata name="WebService.EnterpriseDataExchange_1_0_1_1.Operation.ConfirmGettingFile.Parameter.FileID" id="0c965703-c1d0-48b7-80f9-b8d869ff98f5"/>
 			<Metadata name="WebService.EnterpriseDataExchange_1_0_1_1.Operation.PrepareDataActionResult.Parameter.ErrorMessage" id="1acf34e6-c428-4130-82f0-5160dfcc0858"/>

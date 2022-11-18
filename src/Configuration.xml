@@ -1089,6 +1089,7 @@
 			<FunctionalOption>ИспользуютсяПрофилиБезопасности</FunctionalOption>
 			<FunctionalOption>мз_ИспользоватьБригадыВместоИсполнителей</FunctionalOption>
 			<FunctionalOption>мз_ИспользоватьВидыЗадач</FunctionalOption>
+			<FunctionalOption>мз_ИспользоватьЛистыУчетаРабочегоВремени</FunctionalOption>
 			<FunctionalOption>мз_ИспользоватьРолиИсполнителей</FunctionalOption>
 			<FunctionalOption>мз_ИспользоватьСложныеСтатусы</FunctionalOption>
 			<FunctionalOption>мз_СложныеСтатусыВВидахЗадач</FunctionalOption>
@@ -1202,8 +1203,10 @@
 			<Constant>мз_ВнешнийАдресИБ</Constant>
 			<Constant>мз_ИспользоватьБригадыВместоИсполнителей</Constant>
 			<Constant>мз_ИспользоватьВидыЗадач</Constant>
+			<Constant>мз_ИспользоватьЛистыУчетаРабочегоВремени</Constant>
 			<Constant>мз_ИспользоватьРолиИсполнителей</Constant>
 			<Constant>мз_ИспользоватьСложныеСтатусы</Constant>
+			<Constant>мз_СложныеСтатусыВВидахЗадач</Constant>
 			<Constant>мз_СтепеньСжатияОписанияЗадачи</Constant>
 			<Constant>НастройкаПодчиненногоУзлаРИБЗавершена</Constant>
 			<Constant>НастройкиВходаПользователей</Constant>
@@ -1240,7 +1243,6 @@
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<Constant>мз_СложныеСтатусыВВидахЗадач</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
@@ -1328,7 +1330,7 @@
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Document>мз_Задачи</Document>
-			<Document>мз_ЛистУчетаРабочегоВремени</Document>
+			<Document>мз_ЛистыУчетаРабочегоВремени</Document>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
 			<Enum>ВариантыПериода</Enum>

@@ -35,7 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_ФизическиеЛица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мз_РолиИсполнителей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мз_РолиИИсполнители</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.мз_ЛистУчетаРабочегоВремени</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.мз_ЛистыУчетаРабочегоВремени</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.мз_ВремяРаботыСотрудников</xr:Item>
 			</Content>
 		</Properties>

@@ -57,6 +57,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьРолиИсполнителей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.мз_СложныеСтатусыВВидахЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_СложныеСтатусыВВидахЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.мз_ИспользоватьЛистыУчетаРабочегоВремени</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.мз_ИспользоватьЛистыУчетаРабочегоВремени</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

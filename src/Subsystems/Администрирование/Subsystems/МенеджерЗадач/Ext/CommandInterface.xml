@@ -26,6 +26,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.мз_ИспользоватьЛистыУчетаРабочегоВремени.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.мз_ИспользоватьРолиИсполнителей.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>

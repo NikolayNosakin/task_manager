@@ -6,7 +6,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.мз_ЛистУчетаРабочегоВремени.StandardCommand.OpenList">
+		<Command name="Document.мз_ЛистыУчетаРабочегоВремени.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -32,7 +32,7 @@
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Document.мз_ЛистУчетаРабочегоВремени.StandardCommand.OpenList">
+		<Command name="Document.мз_ЛистыУчетаРабочегоВремени.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -41,7 +41,7 @@
 		<Command name="Document.мз_Задачи.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Document.мз_ЛистУчетаРабочегоВремени.StandardCommand.OpenList">
+		<Command name="Document.мз_ЛистыУчетаРабочегоВремени.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
 		<Command name="Catalog.мз_ВидыЗадач.StandardCommand.OpenList">
@@ -62,6 +62,9 @@
 		<Command name="Catalog.мз_Клиенты.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
+		<Command name="Catalog.мз_РолиИсполнителей.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
 		<Command name="InformationRegister.мз_ИсторияСтатусовЗадач.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
@@ -72,9 +75,6 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.мз_РолиИИсполнители.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="Catalog.мз_РолиИсполнителей.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

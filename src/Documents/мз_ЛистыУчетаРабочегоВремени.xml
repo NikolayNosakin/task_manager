@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Document uuid="c74b79d2-1042-4af2-8405-24702f8816dd">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.мз_ЛистУчетаРабочегоВремени" category="Object">
+			<xr:GeneratedType name="DocumentObject.мз_ЛистыУчетаРабочегоВремени" category="Object">
 				<xr:TypeId>3f18ae28-f517-44ca-be7a-fc5623f87412</xr:TypeId>
 				<xr:ValueId>f66d327a-7e12-42ac-b31b-8b8d002efe9f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.мз_ЛистУчетаРабочегоВремени" category="Ref">
+			<xr:GeneratedType name="DocumentRef.мз_ЛистыУчетаРабочегоВремени" category="Ref">
 				<xr:TypeId>cd22a010-cc6a-4979-b382-c517297652ca</xr:TypeId>
 				<xr:ValueId>2553db4b-5844-43a0-9b46-232212bb919e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.мз_ЛистУчетаРабочегоВремени" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.мз_ЛистыУчетаРабочегоВремени" category="Selection">
 				<xr:TypeId>9017acdc-c640-4354-bd9a-9d376c73b9dc</xr:TypeId>
 				<xr:ValueId>46b1fbd1-3888-4ae7-a287-f903e31e178c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.мз_ЛистУчетаРабочегоВремени" category="List">
+			<xr:GeneratedType name="DocumentList.мз_ЛистыУчетаРабочегоВремени" category="List">
 				<xr:TypeId>f229a76f-39c2-4807-85b5-7a3d2ccffb4d</xr:TypeId>
 				<xr:ValueId>8fe56853-a825-46aa-8ea7-f92878c00324</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.мз_ЛистУчетаРабочегоВремени" category="Manager">
+			<xr:GeneratedType name="DocumentManager.мз_ЛистыУчетаРабочегоВремени" category="Manager">
 				<xr:TypeId>20ed5aee-d2e0-47ec-8392-16565069b845</xr:TypeId>
 				<xr:ValueId>11b47709-106f-47ed-a431-c4551fcd7266</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>мз_ЛистУчетаРабочегоВремени</Name>
+			<Name>мз_ЛистыУчетаРабочегоВремени</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Лист учета рабочего времени</v8:content>
+					<v8:content>Листы учета рабочего времени</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.мз_ЛистУчетаРабочегоВремени.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.мз_ЛистыУчетаРабочегоВремени.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.мз_ЛистУчетаРабочегоВремени.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -67,7 +67,12 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Лист учета рабочего времени</v8:content>
+				</v8:item>
+			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
@@ -207,11 +212,11 @@
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="31bf9855-e853-4d70-aec4-5633a4c96ed5">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.мз_ЛистУчетаРабочегоВремени.СписокЗадач" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.мз_ЛистыУчетаРабочегоВремени.СписокЗадач" category="TabularSection">
 						<xr:TypeId>cb07cf21-ead9-4cd2-bc69-a259faf72b11</xr:TypeId>
 						<xr:ValueId>68d058ed-d394-4f0b-a3bd-199689928e86</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.мз_ЛистУчетаРабочегоВремени.СписокЗадач" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.мз_ЛистыУчетаРабочегоВремени.СписокЗадач" category="TabularSectionRow">
 						<xr:TypeId>ffc592d8-9681-4826-8236-14024d445685</xr:TypeId>
 						<xr:ValueId>84cf6adb-537b-4ad5-8ae9-f2cf998672e6</xr:ValueId>
 					</xr:GeneratedType>
