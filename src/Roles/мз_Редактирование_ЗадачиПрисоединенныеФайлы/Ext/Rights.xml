@@ -290,17 +290,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Файлы.Attribute.УдалитьПолноеНаименование</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НаличиеФайлов.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -3164,17 +3153,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиСинхронизацииФайлов.Resource.Синхронизировать</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВерсииФайлов.Attribute.УдалитьПодписанЭП</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6974,17 +6952,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВерсииФайлов.Attribute.ПолноеНаименование</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ПомощникСозданияОбменаДанными.Attribute.ПрефиксИнформационнойБазыПриемникаУстановлен</name>
 		<right>
 			<name>View</name>
@@ -7026,6 +6993,33 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.МенеджерЗадач</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -18973,17 +18967,6 @@
 	</object>
 	<object>
 		<name>Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ПротоколВходящейПочты</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВерсииФайлов.Attribute.УдалитьЗашифрован</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

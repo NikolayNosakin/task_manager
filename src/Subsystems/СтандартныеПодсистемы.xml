@@ -19,17 +19,17 @@
 		</Properties>
 		<ChildObjects>
 			<Subsystem>АнализЖурналаРегистрации</Subsystem>
-			<Subsystem>ДополнительныеОтчетыИОбработки</Subsystem>
 			<Subsystem>ВариантыОтчетов</Subsystem>
-			<Subsystem>ГрупповоеИзменениеОбъектов</Subsystem>
-			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>ВнешниеКомпоненты</Subsystem>
+			<Subsystem>ГрупповоеИзменениеОбъектов</Subsystem>
+			<Subsystem>ДополнительныеОтчетыИОбработки</Subsystem>
 			<Subsystem>ЗавершениеРаботыПользователей</Subsystem>
 			<Subsystem>ЗагрузкаДанныхИзФайла</Subsystem>
 			<Subsystem>ЗаметкиПользователя</Subsystem>
 			<Subsystem>ЗапретРедактированияРеквизитовОбъектов</Subsystem>
 			<Subsystem>ИнтерфейсOData</Subsystem>
 			<Subsystem>КонструкторФормул</Subsystem>
+			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>НапоминанияПользователя</Subsystem>
 			<Subsystem>НастройкаПорядкаЭлементов</Subsystem>
 			<Subsystem>НастройкиПрограммы</Subsystem>
@@ -49,6 +49,8 @@
 			<Subsystem>РезервноеКопированиеИБ</Subsystem>
 			<Subsystem>СтруктураПодчиненности</Subsystem>
 			<Subsystem>УдалениеПомеченныхОбъектов</Subsystem>
+			<Subsystem>ВерсионированиеОбъектов</Subsystem>
+			<Subsystem>КонтактнаяИнформация</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -1322,7 +1322,7 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ОтмененныеДлительныеОперации</name>
+		<name>SessionParameter.ДлительныеОперации</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>

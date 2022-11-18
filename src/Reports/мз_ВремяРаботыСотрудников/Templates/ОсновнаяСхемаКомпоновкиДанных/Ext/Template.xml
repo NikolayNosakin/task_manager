@@ -31,6 +31,10 @@
 	(мз_ЛистУчетаРабочегоВремениСписокЗадач.Ссылка.Ответственный = &amp;Ответственный),
 	(мз_ЛистУчетаРабочегоВремениСписокЗадач.Ссылка.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон)}</query>
 	</dataSet>
+	<totalField>
+		<dataPath>ЗатраченоЧасов</dataPath>
+		<expression>Сумма(ЗатраченоЧасов)</expression>
+	</totalField>
 	<parameter>
 		<name>Ответственный</name>
 		<title xsi:type="v8:LocalStringType">

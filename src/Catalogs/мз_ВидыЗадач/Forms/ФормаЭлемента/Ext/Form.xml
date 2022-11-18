@@ -19,6 +19,7 @@
 		</InputField>
 		<Table name="ИсполнителиИСтатусы" id="7">
 			<Representation>List</Representation>
+			<Visible>false</Visible>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>

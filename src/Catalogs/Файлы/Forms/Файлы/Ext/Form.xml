@@ -884,6 +884,11 @@
 									<ContextMenu name="СписокКонтекстноеМеню" id="4">
 										<Autofill>false</Autofill>
 										<ChildItems>
+											<Button name="СписокКонтекстноеМенюСравнить" id="446">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.Сравнить</CommandName>
+												<ExtendedTooltip name="СписокКонтекстноеМенюСравнитьРасширеннаяПодсказка" id="447"/>
+											</Button>
 											<Button name="СписокКонтекстноеМенюСоздать" id="96" DisplayImportance="VeryHigh">
 												<Type>CommandBarButton</Type>
 												<SkipOnInput>false</SkipOnInput>
@@ -1501,7 +1506,6 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>~Папки.ДатаСинхронизации</Field>
 				<Field>Папки.Description</Field>
 				<Field>Папки.Href</Field>
 				<Field>Папки.Ref</Field>
@@ -1509,7 +1513,6 @@
 				<Field>Папки.ПапкаСинхронизируется</Field>
 				<Field>Папки.Синхронизирован</Field>
 				<Field>Папки.УчетнаяЗапись</Field>
-				<Field>Папки.УчетнаяЗаписьDescription</Field>
 				<Field>Папки.УчетнаяЗаписьСервис</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">

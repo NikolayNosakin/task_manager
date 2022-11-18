@@ -4,6 +4,10 @@
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="ВладелецДанных" id="25">
 			<DataPath>Объект.ВладелецДанных</DataPath>
@@ -60,6 +64,16 @@
 			<ContextMenu name="АдресПеренаправленияКонтекстноеМеню" id="29"/>
 			<ExtendedTooltip name="АдресПеренаправленияРасширеннаяПодсказка" id="30"/>
 		</InputField>
+		<InputField name="АдресРегистрацииУстройства" id="49">
+			<DataPath>Объект.АдресРегистрацииУстройства</DataPath>
+			<ContextMenu name="АдресРегистрацииУстройстваКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="АдресРегистрацииУстройстваРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="АдресПеренаправленияВебКлиент" id="46">
+			<DataPath>Объект.АдресПеренаправленияВебКлиент</DataPath>
+			<ContextMenu name="АдресПеренаправленияВебКлиентКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="АдресПеренаправленияВебКлиентРасширеннаяПодсказка" id="48"/>
+		</InputField>
 		<InputField name="АдресПолученияКлюча" id="7">
 			<DataPath>Объект.АдресПолученияКлюча</DataPath>
 			<ToolTip>
@@ -107,8 +121,17 @@
 			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<PasswordMode>true</PasswordMode>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonPicture>
+				<xr:Ref>CommonPicture.ВводимыеСимволыСкрыты</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</ChoiceButtonPicture>
 			<ContextMenu name="ПарольПриложенияКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="ПарольПриложенияРасширеннаяПодсказка" id="21"/>
+			<Events>
+				<Event name="EditTextChange">ПарольПриложенияИзменениеТекстаРедактирования</Event>
+				<Event name="StartChoice">ПарольПриложенияНачалоВыбора</Event>
+			</Events>
 		</InputField>
 		<InputField name="ДополнительныеПараметрыАвторизации" id="37">
 			<DataPath>Объект.ДополнительныеПараметрыАвторизации</DataPath>
@@ -185,9 +208,15 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+			<SavedData>true</SavedData>
 			<Save>
 				<Field>ПарольПриложения</Field>
 			</Save>
+		</Attribute>
+		<Attribute name="ПарольИзменен" id="5">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 </Form>

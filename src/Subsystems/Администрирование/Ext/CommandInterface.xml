@@ -46,7 +46,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:782cb93d-36e6-4923-b2b6-75caa3459cd6">
+		<Command name="Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -111,7 +111,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:45af8f5d-d505-466b-a798-19f2219a180c">
+		<Command name="InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -561,6 +561,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="100:cb81fb9f-16a2-4265-92a9-b827ca2fd588">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
@@ -696,7 +701,7 @@
 		<Command name="0:ab494025-00b8-46f2-92a0-7b097cf8c901">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:782cb93d-36e6-4923-b2b6-75caa3459cd6">
+		<Command name="Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания">
@@ -735,7 +740,7 @@
 		<Command name="DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.Command.ЗагрузкаДанныхEnterpriseData">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:45af8f5d-d505-466b-a798-19f2219a180c">
+		<Command name="InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="0:b8a966ba-3452-44df-91d0-7040ecd3e4c2">

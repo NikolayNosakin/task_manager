@@ -21,6 +21,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ВерсииОбъектов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.ПараметрыРезервногоКопирования</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -121,11 +125,19 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.НастройкиВерсионированияОбъектов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.СписокЗапрещенныхРасширенийОбластиДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.ИспользоватьВерсионированиеОбъектов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -198,6 +210,14 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.НазначениеДополнительныхОбработок</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ВидыКонтактнойИнформации</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СтраныМира</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -389,6 +409,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ПериодическиеСерверныеОповещения</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.НастройкиВариантовОтчетов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -418,6 +442,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.РезультатыОбменаДанными</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ОтправленныеСерверныеОповещения</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

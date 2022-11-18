@@ -45,6 +45,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ВерсииОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.УчетнаяЗаписьДляВосстановленияПароля</name>
 		<right>
 			<name>Read</name>
@@ -67,13 +78,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.мз_СтатусыЗадач</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</name>
 		<right>
 			<name>Read</name>
@@ -81,20 +85,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.мз_ФизическиеЛица</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.мз_ЗадачиПрисоединенныеФайлы</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -188,6 +178,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.НастройкиВерсионированияОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СписокЗапрещенныхРасширенийОбластиДанных</name>
 		<right>
 			<name>Read</name>
@@ -200,6 +201,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьВерсионированиеОбъектов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -349,6 +361,44 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВидыКонтактнойИнформации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтраныМира</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьГруппыВнешнихПользователей</name>
 		<right>
 			<name>Read</name>
@@ -356,20 +406,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.мз_Клиенты</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.мз_Проекты</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -414,13 +450,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.мз_Задачи</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
