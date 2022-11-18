@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="ИсполнителиИСтатусы" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ИсполнителиИСтатусы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИсполнителиИСтатусыКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ИсполнителиИСтатусыКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ИсполнителиИСтатусыРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ИсполнителиИСтатусыСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ИсполнителиИСтатусы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсполнителиИСтатусыСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ИсполнителиИСтатусыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИсполнителиИСтатусыСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ИсполнителиИСтатусы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсполнителиИСтатусыСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ИсполнителиИСтатусыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИсполнителиИСтатусыУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ИсполнителиИСтатусы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсполнителиИСтатусыУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ИсполнителиИСтатусыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ИсполнителиИСтатусыВыбор</Event>
+				<Event name="OnStartEdit">ИсполнителиИСтатусыПриНачалеРедактирования</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ИсполнителиИСтатусыНомерСтроки" id="20">
+					<DataPath>Объект.ИсполнителиИСтатусы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсполнителиИСтатусыНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ИсполнителиИСтатусыНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ИсполнителиИСтатусыРоль" id="23">
+					<DataPath>Объект.ИсполнителиИСтатусы.Роль</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсполнителиИСтатусыРольКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ИсполнителиИСтатусыРольРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ИсполнителиИСтатусыСтатус" id="26">
+					<DataPath>Объект.ИсполнителиИСтатусы.Статус</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсполнителиИСтатусыСтатусКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ИсполнителиИСтатусыСтатусРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<LabelField name="ИсполнителиИСтатусыКнопкаДоступныеСтатусы" id="29">
+					<DataPath>Объект.ИсполнителиИСтатусы.КнопкаДоступныеСтатусы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ='Статусы не заданы'; БИ='Доступные статусы'</v8:content>
+						</v8:item>
+					</Format>
+					<Hiperlink>true</Hiperlink>
+					<TextColor>#0000FF</TextColor>
+					<ContextMenu name="ИсполнителиИСтатусыКнопкаДоступныеСтатусыКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ИсполнителиИСтатусыКнопкаДоступныеСтатусыРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.мз_ВидыЗадач</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.ИсполнителиИСтатусы">
+					<Column name="КнопкаДоступныеСтатусы" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступные статусы</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>
