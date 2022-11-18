@@ -3627,8 +3627,8 @@
 		</Metadata>
 		<Metadata name="Document.мз_Задачи.Form.ФормаВыбора" id="6799e725-2458-4e81-9dfa-029ad982beb0" configVersion="9352b8adfa2795458d980d09d0818b9d00000000"/>
 		<Metadata name="Document.мз_Задачи.Form.ФормаВыбора.Form" id="6799e725-2458-4e81-9dfa-029ad982beb0.0" configVersion="439cfb63ddafb04db4df6ed3e621ae8c00000000"/>
-		<Metadata name="Document.мз_Задачи.Form.ФормаДокумента" id="57a3e6e4-6cf9-43d5-91e1-c8f35f2614d3" configVersion="dd32751689294843b5327d7bddd557b600000000"/>
-		<Metadata name="Document.мз_Задачи.Form.ФормаДокумента.Form" id="57a3e6e4-6cf9-43d5-91e1-c8f35f2614d3.0" configVersion="ee9ad5bec860684a8987103a99a3c38b00000000"/>
+		<Metadata name="Document.мз_Задачи.Form.ФормаДокумента" id="57a3e6e4-6cf9-43d5-91e1-c8f35f2614d3" configVersion="249c31290a2d8247a2b71c13c8b2168900000000"/>
+		<Metadata name="Document.мз_Задачи.Form.ФормаДокумента.Form" id="57a3e6e4-6cf9-43d5-91e1-c8f35f2614d3.0" configVersion="84e4af4907512642988ef234565c6dff00000000"/>
 		<Metadata name="Document.мз_Задачи.Form.ФормаСписка" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3" configVersion="1c06433d560c1e4d96753d31bae63e3700000000"/>
 		<Metadata name="Document.мз_Задачи.Form.ФормаСписка.Form" id="62bf23a4-7ad0-4139-8c9e-1380c14971a3.0" configVersion="a18cb8fc0319dc42971e5a0ad3a3b9f800000000"/>
 		<Metadata name="Document.мз_Задачи.ManagerModule" id="89d28a0c-df53-4cb4-b69a-2270bf307762.2" configVersion="f63f71612742c74195a1a5c784d658f600000000"/>
@@ -3644,8 +3644,8 @@
 			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Attribute.ВсегоЧасов" id="ca6f9938-43bd-4002-bd33-6f459d2a6b20"/>
 			<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.TabularSection.СписокЗадач.Attribute.ОкончаниеРаботы" id="d28cec81-3dcf-4e15-91f0-5fc5a8fbdcd2"/>
 		</Metadata>
-		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f" configVersion="5e3bf44614a2404092a693f2c4da733c00000000"/>
-		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f.0" configVersion="bcb1d134212cf64598b659bbda0640ea00000000"/>
+		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f" configVersion="edc93210961c8445b04cd88d710a459100000000"/>
+		<Metadata name="Document.мз_ЛистыУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="4b09f78b-52cc-45f1-8d13-4a6a720ced3f.0" configVersion="fe1149bc0f415244ab2aa6ee2bc69f1300000000"/>
 		<Metadata name="Enum.ВариантыВерсионированияОбъектов" id="442f9d7b-ae8f-4074-8ece-d5aa1c66e35c" configVersion="babd51b2b39ee3448cdcbb99b2e2a2f500000000">
 			<Metadata name="Enum.ВариантыВерсионированияОбъектов.EnumValue.ВерсионироватьПриПроведении" id="061842fe-4077-4d6e-aefe-de79409da730"/>
 			<Metadata name="Enum.ВариантыВерсионированияОбъектов.EnumValue.ВерсионироватьПриСтарте" id="86249619-8981-4fc4-85fc-ce30e4b9d542"/>
