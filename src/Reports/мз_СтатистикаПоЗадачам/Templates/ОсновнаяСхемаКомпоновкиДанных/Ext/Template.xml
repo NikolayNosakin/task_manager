@@ -7,103 +7,156 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Ссылка</dataPath>
-			<field>Ссылка</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ВерсияДанных</dataPath>
-			<field>ВерсияДанных</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ПометкаУдаления</dataPath>
-			<field>ПометкаУдаления</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ДатаНачала</dataPath>
-			<field>ДатаНачала</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ДатаОкончания</dataPath>
-			<field>ДатаОкончания</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Номер</dataPath>
-			<field>Номер</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Проведен</dataPath>
-			<field>Проведен</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Дата</dataPath>
-			<field>Дата</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Важная</dataPath>
-			<field>Важная</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Заголовок</dataPath>
-			<field>Заголовок</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Надзадача</dataPath>
-			<field>Надзадача</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ОценочноеВремяРаботы</dataPath>
 			<field>ОценочноеВремяРаботы</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Постановщик</dataPath>
-			<field>Постановщик</field>
+			<dataPath>Задача</dataPath>
+			<field>Задача</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Проект</dataPath>
-			<field>Проект</field>
+			<dataPath>ЗатраченоЧасов</dataPath>
+			<field>ЗатраченоЧасов</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РеальноеВремяРаботы</dataPath>
-			<field>РеальноеВремяРаботы</field>
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Статус</dataPath>
-			<field>Статус</field>
+			<dataPath>Название</dataPath>
+			<field>Название</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СутьЗадачи</dataPath>
-			<field>СутьЗадачи</field>
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиент</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	мз_Задачи.Ссылка КАК Ссылка,
-	мз_Задачи.ВерсияДанных КАК ВерсияДанных,
-	мз_Задачи.ПометкаУдаления КАК ПометкаУдаления,
-	мз_Задачи.Номер КАК Номер,
-	мз_Задачи.Дата КАК Дата,
-	мз_Задачи.Проведен КАК Проведен,
-	мз_Задачи.Важная КАК Важная,
-	мз_Задачи.ДатаНачала КАК ДатаНачала,
-	мз_Задачи.ДатаОкончания КАК ДатаОкончания,
-	мз_Задачи.Заголовок КАК Заголовок,
-	мз_Задачи.Клиент КАК Клиент,
-	мз_Задачи.Надзадача КАК Надзадача,
-	мз_Задачи.ОценочноеВремяРаботы КАК ОценочноеВремяРаботы,
-	мз_Задачи.Постановщик КАК Постановщик,
-	мз_Задачи.Проект КАК Проект,
-	мз_Задачи.РеальноеВремяРаботы КАК РеальноеВремяРаботы,
-	мз_Задачи.Статус КАК Статус,
-	мз_Задачи.СутьЗадачи КАК СутьЗадачи
+	мз_ЛистыУчетаРабочегоВремениСписокЗадач.Задача КАК Задача,
+	мз_ЛистыУчетаРабочегоВремениСписокЗадач.ЗатраченоЧасов КАК ЗатраченоЧасов,
+	мз_ЛистыУчетаРабочегоВремениСписокЗадач.Ссылка.Ответственный КАК Ответственный,
+	мз_ЛистыУчетаРабочегоВремениСписокЗадач.Задача.ОценочноеВремяРаботы КАК ОценочноеВремяРаботы,
+	мз_ЛистыУчетаРабочегоВремениСписокЗадач.Задача.Заголовок КАК Название,
+	мз_ЛистыУчетаРабочегоВремениСписокЗадач.Задача.Клиент КАК Клиент
 ИЗ
-	Документ.мз_Задачи КАК мз_Задачи</query>
+	Документ.мз_ЛистыУчетаРабочегоВремени.СписокЗадач КАК мз_ЛистыУчетаРабочегоВремениСписокЗадач</query>
 	</dataSet>
+	<totalField>
+		<dataPath>ЗатраченоЧасов</dataPath>
+		<expression>Сумма(ЗатраченоЧасов)</expression>
+		<group>Задача</group>
+		<group>ЗатраченоЧасов</group>
+		<group>Ответственный</group>
+	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статистика по задачам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Задача</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>87a5db23-2f53-4579-b514-494b0ba1c038</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Задача</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОценочноеВремяРаботы</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Название</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Клиент</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto">
+						<dcsset:use>false</dcsset:use>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Задача</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Название</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Клиент</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ОценочноеВремяРаботы</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЗатраченоЧасов</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Ответственный</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto">
+							<dcsset:use>false</dcsset:use>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Ответственный</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЗатраченоЧасов</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>
